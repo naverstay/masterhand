@@ -1,6 +1,6 @@
 .footer__new {
-    background: #FFFFFF;
-    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.2);
     padding: 65px 0 60px;
     font-size: 16px;
 }
@@ -81,7 +81,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 1.2;
-    color: #000000;
+    color: #000;
     margin-bottom: 38px;
     max-width: 226px;
 }
@@ -124,12 +124,10 @@
 }
 
 
-
-
 .myaccount__x_side {
-    background: #FFFFFF;
-    border: 1px solid #F1F1F1;
-    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     width: 360px;
     padding: 25px;
@@ -186,12 +184,12 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2C33C1;
+    color: #2c33c1;
     margin-bottom: 16px;
 }
 
 .myaccount__x_side_status__view {
-    background: #24B021;
+    background: #24b021;
     border-radius: 30px;
     color: #fff;
     font-size: 16px;
@@ -202,7 +200,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 1.2;
-    color: #000000;
+    color: #000;
     margin-bottom: 8px;
 }
 
@@ -217,7 +215,7 @@
 }
 
 .myaccount__x_side__block {
-    border-top: 1px solid #E6E6E6;
+    border-top: 1px solid #e6e6e6;
     padding: 22.5px 0;
     display: flex;
     flex-direction: column;
@@ -256,7 +254,7 @@
 }
 
 .myaccount__x_side_social {
-    border-top: 1px solid #E6E6E6;
+    border-top: 1px solid #e6e6e6;
     padding: 14.5px 0 0;
     display: flex;
     align-items: center;
@@ -308,7 +306,7 @@
 
 
 .btn__purple {
-    background: #2C33C1;
+    background: #2c33c1;
     border-radius: 5px;
     color: #fff;
     text-align: center;
@@ -318,11 +316,11 @@
 }
 
 .btn__ghost {
-    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.2);
     padding: 7px;
-    border: 1px solid #2C33C1;
+    border: 1px solid #2c33c1;
     border-radius: 5px;
-    color: #2C33C1;
+    color: #2c33c1;
     font-size: 16px;
     text-align: center;
     font-weight: 500;
@@ -364,9 +362,9 @@
 }
 
 .myaccount__x_content__block {
-    background: #FFFFFF;
-    border: 1px solid #F1F1F1;
-    box-shadow: 0px 0px 15px -10px rgb(0 0 0 / 20%);
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     width: 100%;
     padding: 25px 25px 25px;
@@ -397,15 +395,18 @@
     appearance: none;
     display: none;
 }
-.btn__myaccount__x_accordeon svg{    transition: 0.25s;
+
+.btn__myaccount__x_accordeon svg {
+    transition: 0.25s;
     width: 12px;
-    height: 14px;}
+    height: 14px;
+}
 
 .myaccount__x_about__text {
     font-size: 16px;
     line-height: 150%;
     /* or 24px */
-    color: #000000;
+    color: #000;
 }
 
 .def__text p {
@@ -417,18 +418,18 @@
 }
 
 .myaccount__x_content__block__about {
-    border-bottom: 1px solid #E6E6E6;
+    border-bottom: 1px solid #e6e6e6;
     padding-bottom: 25px;
 }
 
 .myaccount__x_about__skills__block {
     padding-top: 24px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 .myaccount__x_content__block__title--gray {
     margin-left: 5px;
-    color: #BFBFBF;
+    color: #bfbfbf;
     font-weight: 400;
     position: relative;
 }
@@ -438,12 +439,12 @@
     flex-wrap: wrap;
     gap: 17px 14px;
     font-size: 16px;
-    color: #000000;
+    color: #000;
     padding-top: 25px;
 }
 
 .myaccount__x_skill__item {
-    border: 1px solid #E6E6E6;
+    border: 1px solid #e6e6e6;
     border-radius: 16px;
     padding: 2px 11.5px;
 }
@@ -459,7 +460,8 @@
     gap: 5px;
 }
 
-.myaccount__x__table__project__row {}
+.myaccount__x__table__project__row {
+}
 
 .myaccount__x__table__project {
     font-size: 16px;
@@ -491,20 +493,20 @@
 }
 
 .myaccount__x__table__project__thead {
-    border-bottom: 1px solid #E6E6E6;
+    border-bottom: 1px solid #e6e6e6;
     padding: 0 0 10px;
-    color: #BFBFBF;
+    color: #bfbfbf;
 }
 
 .myaccount__x__table__project__tbody .myaccount__x__table__project__row {
-    border-bottom: 1px solid #E6E6E6;
+    border-bottom: 1px solid #e6e6e6;
     padding: 23px 0;
 }
 
 .myaccount__x__table__project__td.myaccount__x__table__project__td--name {
     display: flex;
     align-items: center;
-    color: #2C33C1;
+    color: #2c33c1;
     font-weight: 500;
 }
 
@@ -522,11 +524,11 @@ span.myaccount__x__table__project_name {
 }
 
 .myaccount__x__table__project__status--active {
-    color: #24B021;
+    color: #24b021;
 }
 
 .myaccount__x__table__project__status--disputed {
-    color: #F42757;
+    color: #f42757;
 }
 
 .myaccount__x__table__project__status--completed {
@@ -534,7 +536,7 @@ span.myaccount__x__table__project_name {
 }
 
 .myaccount__x__table__project__status--processing {
-    color: #24B021;
+    color: #24b021;
 }
 
 
@@ -559,7 +561,7 @@ span.myaccount__x__table__project_name {
 }
 
 .pagination_x a.active {
-    border: 1.5px solid #2C33C1;
+    border: 1.5px solid #2c33c1;
     border-radius: 5px;
     color: #000;
 }
@@ -569,7 +571,7 @@ span.myaccount__x__table__project_name {
 }
 
 .pagination_x a.active:hover {
-    background: #2C33C1;
+    background: #2c33c1;
     color: #fff;
 }
 
@@ -580,9 +582,9 @@ span.myaccount__x__table__project_name {
 .myaccount__x_content__quick__links {
     display: flex;
     flex-wrap: wrap;
-    background: #FFFFFF;
-    border: 1px solid #F1F1F1;
-    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     padding: 5px;
     margin-bottom: -15px;
@@ -600,8 +602,8 @@ span.myaccount__x__table__project_name {
 }
 
 .myaccount__x_content__quick__links a.active {
-    background: #2C33C1;
-    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.2);
+    background: #2c33c1;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     color: #fff;
     font-weight: 500;
@@ -613,7 +615,7 @@ span.myaccount__x__table__project_name {
 }
 
 .myaccount__x_content__quick__links a:hover {
-    background: #2C33C1;
+    background: #2c33c1;
     color: #fff;
 }
 
@@ -622,7 +624,7 @@ span.myaccount__x__table__project_name {
     font-size: 24px;
     line-height: 29px;
     text-align: right;
-    color: #2C33C1;
+    color: #2c33c1;
     position: absolute;
     right: -2px;
     top: -2px;
@@ -656,8 +658,8 @@ span.myaccount__x__table__project_name {
 }
 
 .myaccount__x_content__block__new__post {
-    background: #F42757;
-    border: 2px solid #FFFFFF;
+    background: #f42757;
+    border: 2px solid #fff;
     position: absolute;
     color: #fff;
     width: 20px;
@@ -719,7 +721,7 @@ span.myaccount__x__table__project_name {
     z-index: 1;
     background: rgba(36, 176, 33, 0.75);
     backdrop-filter: blur(5px);
-    border-radius: 0px 16px 16px 0px;
+    border-radius: 0 16px 16px 0;
     color: #fff;
     max-width: 90%;
     font-weight: 500;
@@ -734,9 +736,9 @@ span.myaccount__x__table__project_name {
 }
 
 .myaccount__x_go_up__item {
-    background: #FFFFFF;
-    border: 1px solid #F1F1F1;
-    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     flex: 1;
     padding: 23px 25px;
@@ -756,10 +758,10 @@ span.myaccount__x__table__project_name {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    color: #2C33C1;
+    color: #2c33c1;
     text-align: center;
     display: block;
-    border-top: 1px solid #E6E6E6;
+    border-top: 1px solid #e6e6e6;
     padding-top: 15px;
 }
 
@@ -767,7 +769,7 @@ span.myaccount__x__table__project_name {
     font-weight: 500;
     font-size: 24px;
     line-height: 1.2;
-    color: #000000;
+    color: #000;
     margin-bottom: 26px;
     min-height: 57px;
 }
@@ -801,7 +803,7 @@ span.myaccount__x__table__project_name {
 .myaccount__x_status__list__item__name {
     font-weight: 500;
     line-height: 1.2;
-    color: #2C33C1;
+    color: #2c33c1;
 }
 
 .myaccount__x_status__list__item__link {
@@ -829,7 +831,7 @@ span.myaccount__x__table__project_name {
     display: flex;
     align-items: flex-start;
     gap: 34px;
-    border-bottom: 1px solid #E6E6E6;
+    border-bottom: 1px solid #e6e6e6;
     padding: 22px 0;
 }
 
@@ -867,7 +869,7 @@ span.myaccount__x__table__project_name {
 }
 
 .myaccount__x_content__review__item__author__name__status {
-    background: #24B021;
+    background: #24b021;
     border-radius: 30px;
     color: #fff;
     text-transform: uppercase;
@@ -905,7 +907,8 @@ span.myaccount__x__table__project_name {
     align-items: center;
 }
 
-.myaccount__x_content__block--review .myaccount__x_content__block__title {}
+.myaccount__x_content__block--review .myaccount__x_content__block__title {
+}
 
 .myaccount__x_content__review__item__title {
     font-weight: 500;
@@ -962,7 +965,7 @@ span.myaccount__x__table__project_name {
 .myaccount__x_content__review__item__author__raiting {
     display: flex;
     align-items: center;
-    color: #2C33C1;
+    color: #2c33c1;
     margin-bottom: 5px;
 }
 
@@ -980,7 +983,7 @@ span.myaccount__x__table__project_name {
     font-size: 16px;
     line-height: 150%;
     text-align: right;
-    color: #2C33C1;
+    color: #2c33c1;
     position: absolute;
     right: -2px;
     top: 2px;
@@ -1043,11 +1046,10 @@ span.myaccount__x__table__project_name {
     color: #000;
 }
 
-
 .myaccount__x_side__edit {
-    background: #FFFFFF;
-    border: 1px solid #F1F1F1;
-    box-shadow: 0px 0px 15px -10px rgb(0 0 0 / 20%);
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     padding: 25px 25px 25px;
     color: #000;
@@ -1073,7 +1075,7 @@ span.myaccount__x__table__project_name {
 }
 
 .myaccount__x_side__edit__menu {
-    border-bottom: 1px solid #E6E6E6;
+    border-bottom: 1px solid #e6e6e6;
     margin-bottom: 15px;
     padding-bottom: 15px;
 }
@@ -1129,7 +1131,7 @@ span.myaccount__x__table__project_name {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    border-top: 1px solid #E6E6E6;
+    border-top: 1px solid #e6e6e6;
     padding: 23px 0;
     align-items: center;
     font-weight: 400;
@@ -1138,7 +1140,7 @@ span.myaccount__x__table__project_name {
 .myaccount__x_give_endorsement__item__top {
     display: flex;
     flex-wrap: wrap;
-    color: #BFBFBF;
+    color: #bfbfbf;
     padding-bottom: 12px;
     gap: 15px;
 }
@@ -1149,7 +1151,7 @@ span.myaccount__x__table__project_name {
     align-items: center;
 }
 
-.myaccount__x_give_endorsement__item__man>img {
+.myaccount__x_give_endorsement__item__man > img {
     width: 48px;
     height: 48px;
 }
@@ -1198,11 +1200,11 @@ span.myaccount__x__table__project_name {
 }
 
 .green_color {
-    color: #24B021;
+    color: #24b021;
 }
 
 .red_color {
-    color: #F42757;
+    color: #f42757;
 }
 
 .endorse_skills_link path {
