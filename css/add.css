@@ -1,0 +1,1223 @@
+.footer__new {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.2);
+    padding: 65px 0 60px;
+    font-size: 16px;
+}
+
+.footer__new .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer__new .container:before {
+    display: none;
+}
+
+.footer__new .container:after {
+    display: none;
+}
+
+.footer__new__menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__new__menu a {
+    font-weight: 500;
+    color: #000;
+}
+
+.footer__new__post ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.footer__new__post {
+    margin-right: 105px;
+}
+
+.footer__new__menu {
+    flex: 1;
+    padding: 0 50px;
+}
+
+.footer__new__info {
+    width: 275px;
+    padding-top: 6px;
+}
+
+.footer__new__menu li {
+    margin-bottom: 12px;
+}
+
+.footer__new__menu li:last-child {
+    margin-bottom: 0;
+}
+
+.footer__new__menu a:hover {
+    color: #2330c7;
+}
+
+.footer__new__post a:hover {
+    color: #2330c7;
+}
+
+.footer__new__post li {
+    margin-bottom: 12px;
+}
+
+.footer__new__post li:last-child {
+    margin-bottom: 0;
+}
+
+.footer__new__logo {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000000;
+    margin-bottom: 38px;
+    max-width: 226px;
+}
+
+.footer__new__logo img {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.footer__new__social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 18px;
+    margin-bottom: 24px;
+}
+
+.footer__new__social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 36px;
+    height: 36px;
+    filter: brightness(0);
+    transition: 0.25s;
+}
+
+.footer__new__social a img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer__new__post a {
+    color: #000;
+    font-weight: 500;
+}
+
+.footer__new__social a:hover {
+    filter: brightness(1);
+}
+
+
+
+
+.myaccount__x_side {
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 360px;
+    padding: 25px;
+    position: sticky;
+    top: 100px;
+}
+
+.myaccount__new .container:before,
+.myaccount__new .container:after {
+    display: none;
+}
+
+.myaccount__new .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.myaccount__new {
+    margin: 30px 0 50px;
+}
+
+.myaccount__x_content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.myaccount__x_side_info {
+    position: relative;
+    padding-bottom: 23px;
+}
+
+.myaccount__x_side_avatar {
+    width: 113px;
+    font-size: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.myaccount__x_side_status {
+    position: absolute;
+    right: -3px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.myaccount__x_side_status__raiting {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2C33C1;
+    margin-bottom: 16px;
+}
+
+.myaccount__x_side_status__view {
+    background: #24B021;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 13px;
+}
+
+.myaccount__x_side_info__name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.myaccount__x_side_info__adress {
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.myaccount__x_side_info__inner {
+    margin-top: 19px;
+}
+
+.myaccount__x_side__block {
+    border-top: 1px solid #E6E6E6;
+    padding: 22.5px 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #000;
+    gap: 11.5px;
+}
+
+.myaccount__x_side__block__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.myaccount__x_side__block__title {
+    font-weight: 400;
+    flex: 57%;
+}
+
+.myaccount__x_side__block__value {
+    font-weight: 500;
+    text-align: right;
+    width: 45%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.myaccount__x_side__block--rate .myaccount__x_side__block__value img {
+    margin-right: 6px;
+}
+
+.myaccount__x_side__block__row--category__title {
+    color: #2c33c1;
+}
+
+.myaccount__x_side_social {
+    border-top: 1px solid #E6E6E6;
+    padding: 14.5px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: -7.5px;
+}
+
+.myaccount__x_side_social a {
+    filter: brightness(0);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.myaccount__x_side_social a:hover {
+    filter: none;
+}
+
+.star_raiting {
+    width: 126px;
+    height: 19px;
+    background: url('../images/myaccount/icons/star/stroke.svg');
+    background-repeat: no-repeat;
+    background-position: 0;
+    position: relative;
+    margin-left: -6px;
+}
+
+.star_raiting__inner {
+    content: '';
+    position: absolute;
+    height: 19px;
+    background: url(../images/myaccount/icons/star/fill.svg);
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+.myaccount__x_side_info__btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+    max-width: 350px;
+}
+
+
+.btn__purple {
+    background: #2C33C1;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn__ghost {
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.2);
+    padding: 7px;
+    border: 1px solid #2C33C1;
+    border-radius: 5px;
+    color: #2C33C1;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.btn__purple:hover {
+    background: #000;
+    color: #fff;
+}
+
+.btn__ghost:hover {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.myaccount__x_side__block__value a:hover {
+    color: #04c;
+}
+
+.myaccount__x_side__block__value a {
+    color: inherit;
+}
+
+.btn__myaccount__x_side_drop {
+    background: transparent;
+    appearance: none;
+    border: none;
+    transition: 0.25s;
+    height: 26px;
+}
+
+.myaccount__x_side__block__row.myaccount__x_side__block__row--purple {
+    color: #2c33c1;
+}
+
+.btn__myaccount__x_side_drop:hover {
+    filter: brightness(0);
+}
+
+.myaccount__x_content__block {
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-shadow: 0px 0px 15px -10px rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    width: 100%;
+    padding: 25px 25px 25px;
+}
+
+.myaccount__x_content__block__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #000;
+    position: relative;
+    margin-bottom: 27px;
+}
+
+.myaccount__x_content__block__title--skills {
+    margin-bottom: 0;
+}
+
+.btn__myaccount__x_accordeon {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    background: transparent;
+    border: none;
+    appearance: none;
+    display: none;
+}
+.btn__myaccount__x_accordeon svg{    transition: 0.25s;
+    width: 12px;
+    height: 14px;}
+
+.myaccount__x_about__text {
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: #000000;
+}
+
+.def__text p {
+    margin-bottom: 24px;
+}
+
+.def__text p:last-child {
+    margin-bottom: 0;
+}
+
+.myaccount__x_content__block__about {
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 25px;
+}
+
+.myaccount__x_about__skills__block {
+    padding-top: 24px;
+    padding-bottom: 0px;
+}
+
+.myaccount__x_content__block__title--gray {
+    margin-left: 5px;
+    color: #BFBFBF;
+    font-weight: 400;
+    position: relative;
+}
+
+.myaccount__x_skill__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px 14px;
+    font-size: 16px;
+    color: #000000;
+    padding-top: 25px;
+}
+
+.myaccount__x_skill__item {
+    border: 1px solid #E6E6E6;
+    border-radius: 16px;
+    padding: 2px 11.5px;
+}
+
+.myaccount__x_skill__item__count {
+    color: #2c33c1;
+}
+
+.myaccount__x__table__project__row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 5px;
+}
+
+.myaccount__x__table__project__row {}
+
+.myaccount__x__table__project {
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.myaccount__x__table__project__row .myaccount__x__table__project__td--name {
+    text-align: left;
+}
+
+.myaccount__x__table__project__td--name {
+    flex: 1;
+}
+
+.myaccount__x__table__project__td--date {
+    width: 100px;
+}
+
+.myaccount__x__table__project__td--budget {
+    width: 170px;
+}
+
+.myaccount__x__table__project__td--bids {
+    width: 40px;
+}
+
+.myaccount__x__table__project__td--status {
+    width: 144px;
+}
+
+.myaccount__x__table__project__thead {
+    border-bottom: 1px solid #E6E6E6;
+    padding: 0 0 10px;
+    color: #BFBFBF;
+}
+
+.myaccount__x__table__project__tbody .myaccount__x__table__project__row {
+    border-bottom: 1px solid #E6E6E6;
+    padding: 23px 0;
+}
+
+.myaccount__x__table__project__td.myaccount__x__table__project__td--name {
+    display: flex;
+    align-items: center;
+    color: #2C33C1;
+    font-weight: 500;
+}
+
+.myaccount__x__table__project__td.myaccount__x__table__project__td--name img {
+    width: 20px;
+    margin-right: 16px;
+}
+
+span.myaccount__x__table__project_name {
+    flex: 1;
+}
+
+.myaccount__x__table__project__tbody {
+    color: #000;
+}
+
+.myaccount__x__table__project__status--active {
+    color: #24B021;
+}
+
+.myaccount__x__table__project__status--disputed {
+    color: #F42757;
+}
+
+.myaccount__x__table__project__status--completed {
+    color: #878787;
+}
+
+.myaccount__x__table__project__status--processing {
+    color: #24B021;
+}
+
+
+.pagination_x ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 6px;
+}
+
+.pagination_x {
+    margin-top: 22px;
+}
+
+.pagination_x a {
+    color: #808080;
+    padding: 2px 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.pagination_x a.active {
+    border: 1.5px solid #2C33C1;
+    border-radius: 5px;
+    color: #000;
+}
+
+.pagination_x a:hover {
+    color: #2c33c1;
+}
+
+.pagination_x a.active:hover {
+    background: #2C33C1;
+    color: #fff;
+}
+
+.myaccount__x__table__project_status--mobile {
+    display: none;
+}
+
+.myaccount__x_content__quick__links {
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: -15px;
+    gap: 5px;
+}
+
+.myaccount__x_content__quick__links a {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.myaccount__x_content__quick__links a.active {
+    background: #2C33C1;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.myaccount__x_content__quick__links a.active:hover {
+    background: #000;
+}
+
+.myaccount__x_content__quick__links a:hover {
+    background: #2C33C1;
+    color: #fff;
+}
+
+.myaccount__x_content__block__title__value__raiting {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #2C33C1;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+}
+
+.myaccount__x_table__raiting__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.myaccount__x_table__raiting__value {
+    text-align: right;
+    width: 100px;
+    font-weight: 500;
+}
+
+.myaccount__x_table__raiting__name {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.myaccount__x_about__table__raiting {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.myaccount__x_content__block__new__post {
+    background: #F42757;
+    border: 2px solid #FFFFFF;
+    position: absolute;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    top: -10px;
+    right: -9px;
+}
+
+.myaccount__x_content__block__all_post__link {
+    position: absolute;
+    right: -2px;
+    font-size: 16px;
+    top: 0;
+}
+
+.myaccount__x_content__block__all_post__link:hover {
+    color: #000;
+}
+
+.myaccount__x_post__item__image {
+    padding-top: 100%;
+    position: relative;
+}
+
+.myaccount__x_post__item__image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+    object-position: 50%;
+    transition: 0.25s;
+}
+
+.myaccount__x_post__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: -5px;
+}
+
+.myaccount__x_post__item {
+    flex: 1;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.myaccount__x_post__item__cat {
+    position: absolute;
+    bottom: 12px;
+    z-index: 1;
+    background: rgba(36, 176, 33, 0.75);
+    backdrop-filter: blur(5px);
+    border-radius: 0px 16px 16px 0px;
+    color: #fff;
+    max-width: 90%;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    padding: 4px 11px;
+}
+
+.myaccount__x_post__item:hover img {
+    transform: scale(1.2);
+}
+
+.myaccount__x_go_up__item {
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    flex: 1;
+    padding: 23px 25px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 255px;
+}
+
+.myaccount__x_go_up__row {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myaccount__x_go_up__item__more {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2C33C1;
+    text-align: center;
+    display: block;
+    border-top: 1px solid #E6E6E6;
+    padding-top: 15px;
+}
+
+.myaccount__x_go_up__item__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #000000;
+    margin-bottom: 26px;
+    min-height: 57px;
+}
+
+.myaccount__x_go_up__item__info {
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 100px;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.myaccount__x_go_up__item__more:hover {
+    color: #000;
+}
+
+.myaccount__x_status__list__item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.myaccount__x_status__list__item__expire {
+    flex: 1;
+    padding-left: 50px;
+}
+
+.myaccount__x_status__list__item__name {
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2C33C1;
+}
+
+.myaccount__x_status__list__item__link {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myaccount__x_status__list__item__link:hover path {
+    stroke: #2c33c1;
+}
+
+.myaccount__x_status__list__item__link path {
+    transition: 0.25s;
+}
+
+.myaccount__x_content__review__list {
+    color: #000;
+    margin-top: -30px;
+}
+
+.myaccount__x_content__review__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 34px;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 22px 0;
+}
+
+.myaccount__x_content__review__item__info {
+    flex: 1;
+}
+
+.myaccount__x_content__review__item__author__info {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 5px;
+    width: 235px;
+}
+
+.myaccount__x_content__review__item__author__avatar {
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 15px;
+}
+
+.myaccount__x_content__review__item__author__inner {
+    flex: 1;
+}
+
+.myaccount__x_content__review__item__author__name {
+    font-weight: 500;
+    margin-bottom: 9px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+.myaccount__x_content__review__item__author__name__status {
+    background: #24B021;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1.5px 7px;
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.review_y_star__mark {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.myaccount__x_content__block--review_y {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+}
+
+.review_y_star {
+    width: 78px;
+    height: 19px;
+    background: url(../images/myaccount/icons/star/stroke.svg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    position: relative;
+    margin-left: -6px;
+    background-size: 78px;
+}
+
+.myaccount__x_content__block--review .myaccount__x_content__block__title {
+    display: flex;
+    align-items: center;
+}
+
+.myaccount__x_content__block--review .myaccount__x_content__block__title {}
+
+.myaccount__x_content__review__item__title {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.myaccount__x_content__review__item__info .def__text {
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.myaccount__x_content__review__my_mark {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.review_y_star__inner {
+    content: '';
+    position: absolute;
+    height: 19px;
+    background: url(../images/myaccount/icons/star/fill.svg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 78px;
+}
+
+.myaccount__x_content__review__my_mark__avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.myaccount__x_content__review__my_mark__text {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.myaccount__x_content__review__item__author__raiting .review_y_star {
+    width: 123px;
+    background-size: 127px;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.myaccount__x_content__review__item__author__raiting .review_y_star__inner {
+    background-size: 127px;
+}
+
+.myaccount__x_content__review__item__author__raiting {
+    display: flex;
+    align-items: center;
+    color: #2C33C1;
+    margin-bottom: 5px;
+}
+
+.myaccount__x_content__review__item__author__raiting .review_y_star__mark {
+    margin-left: 11px;
+    font-weight: 400;
+}
+
+.myaccount__x_content__review__item__author__date {
+    font-size: 16px;
+}
+
+.myaccount__x_content__block__title__all__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    color: #2C33C1;
+    position: absolute;
+    right: -2px;
+    top: 2px;
+}
+
+.myaccount__x_content__block__title__all__link:hover {
+    color: #000;
+}
+
+.account_give_endorsement__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.account_give_endorsement__item__image {
+    width: 80px;
+    display: flex;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+.account_give_endorsement__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: calc(100% / 6 - 25px);
+    text-align: center;
+    flex-basis: 91.25px;
+}
+
+.account_give_endorsement__item__info {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.35;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.account_give_endorsement__item__title {
+    margin-bottom: 5px;
+    flex: 1;
+    max-width: 94px;
+}
+
+.account_give_endorsement__item__pos {
+    color: #808080;
+    font-weight: 400;
+}
+
+.account_give_endorsement__item__title a {
+    margin-top: 10px;
+    display: block;
+}
+
+.account_give_endorsement__item__title a:hover {
+    color: #000;
+}
+
+
+.myaccount__x_side__edit {
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-shadow: 0px 0px 15px -10px rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    padding: 25px 25px 25px;
+    color: #000;
+    font-size: 16px;
+    width: 360px;
+    position: sticky;
+    top: 110px;
+}
+
+.myaccount__x_side__edit ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.myaccount__x_side__edit a {
+    color: inherit;
+    font-weight: 400;
+}
+
+.myaccount__x_side__edit li {
+    margin-bottom: 13px;
+}
+
+.myaccount__x_side__edit__menu {
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.myaccount__x_side__edit__menu:last-child {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.myaccount__x_side__edit li:last-child {
+    margin-bottom: 0;
+}
+
+.myaccount__x_content__edit {
+    flex: 1;
+}
+
+.myaccount__x_side__edit a:hover {
+    font-weight: bold;
+    color: #2c33c1;
+}
+
+.myaccount__x_content__block__title__back {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+.myaccount__x_content__block__title--top {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.myaccount__x_content__block__title__back svg {
+    margin-right: 12px;
+    margin-top: 2px;
+}
+
+.myaccount__x_content__block__title__back:hover {
+    color: #000
+}
+
+.myaccount__x_content__block__title__back:hover path {
+    stroke: #000;
+}
+
+.myaccount__x_give_endorsement__item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-top: 1px solid #E6E6E6;
+    padding: 23px 0;
+    align-items: center;
+    font-weight: 400;
+}
+
+.myaccount__x_give_endorsement__item__top {
+    display: flex;
+    flex-wrap: wrap;
+    color: #BFBFBF;
+    padding-bottom: 12px;
+    gap: 15px;
+}
+
+.myaccount__x_give_endorsement__item__man {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.myaccount__x_give_endorsement__item__man>img {
+    width: 48px;
+    height: 48px;
+}
+
+.myaccount__x_give_endorsement__item__man__name {
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.myaccount__x_give_endorsement__block {
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.myaccount__x_give_endorsement__item:last-child {
+    padding-bottom: 0;
+}
+
+.myaccount__x_give_endorsement__item__status {
+    width: 192px;
+    text-align: center;
+}
+
+.myaccount__x_give_endorsement__item__project {
+    width: 165px;
+    text-align: left;
+}
+
+.myaccount__x_give_endorsement__item__deals {
+    width: 60px;
+    text-align: center;
+}
+
+.endorse_skills_link svg {
+    width: 20px;
+    height: auto;
+    margin-right: 4px;
+}
+
+.endorse_skills_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.green_color {
+    color: #24B021;
+}
+
+.red_color {
+    color: #F42757;
+}
+
+.endorse_skills_link path {
+    transition: 0.25s;
+}
+
+.endorse_skills_link:hover {
+    color: #000;
+}
+
+.endorse_skills_link:hover path {
+    fill: #000;
+}
+
+.myaccount__x_give_endorsement__list {
+    padding-bottom: 20px;
+    color: #000;
+}

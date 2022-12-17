@@ -1,0 +1,575 @@
+@media screen and (max-width:1200px) {
+    .myaccount__x_give_endorsement__block {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    .myaccount__x_give_endorsement__item__man__name {
+        margin: 7px 0 0;
+    }
+
+    .myaccount__x_give_endorsement__item__man {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 160px;
+        flex: none;
+    }
+
+    .myaccount__x_give_endorsement__item__project {
+        width: 125px;
+    }
+
+    .myaccount__x_give_endorsement__item__deals {
+        width: 50px;
+    }
+
+    .myaccount__x_give_endorsement__item__status {
+        width: 125px;
+    }
+
+    .myaccount__x_give_endorsement__item {
+        gap: 10px;
+    }
+
+    .endorse_skills_link {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+    .myaccount__x_give_endorsement__item__top {
+        gap: 10px;
+    }
+
+    .myaccount__x_content__review__item__author__info {
+        width: 100%;
+    }
+
+    .account_give_endorsement__list {
+        margin-top: 30px;
+    }
+
+    .myaccount__x_content__review__item {
+        flex-direction: column;
+        gap: 16px;
+        font-size: 14px;
+    }
+
+    .myaccount__x_content__review__item__author__name {
+        font-size: inherit;
+    }
+
+    .myaccount__x_content__review__item__author__date {
+        font-size: inherit;
+    }
+
+    .myaccount__x_content__review__list {
+        margin-top: -10px;
+    }
+
+    .myaccount__x_content__review__item__title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .myaccount__x_content__review__item__info .def__text {
+        font-size: 14px;
+    }
+
+    .myaccount__x__table__project_status--mobile {
+        display: block;
+    }
+
+    .myaccount__x_content__block__title {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .myaccount__x_content__block__title--skills {
+        margin-bottom: 0;
+    }
+
+    .myaccount__x_about__text {
+        font-size: 13px;
+    }
+
+    .myaccount__x_skill__item {
+        font-size: 13px;
+        padding: 4px 12.5px;
+    }
+
+    .myaccount__x_skill__list {
+        gap: 10px;
+        margin-top: 20px;
+        padding-top: 0;
+    }
+
+    .myaccount__x__table__project__thead {
+        display: none;
+    }
+
+    .myaccount__x__table__project__td:before {
+        content: attr(data-title);
+        color: #BFBFBF;
+        font-size: 16px;
+        font-weight: 300;
+        margin-right: 5px;
+    }
+
+    .myaccount__x__table__project__td.myaccount__x__table__project__td--name:before {
+        display: none;
+    }
+
+    .myaccount__x__table__project__td.myaccount__x__table__project__td--name {
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        left: 0;
+        width: 175px;
+        top: 27px;
+    }
+
+    .myaccount__x__table__project__td.myaccount__x__table__project__td--name img {
+        margin: 0 0 5px;
+    }
+
+    .myaccount__x__table__project__row {
+        text-align: left;
+        position: relative;
+    }
+
+    .myaccount__x__table__project__td--status:before {
+        display: none;
+    }
+
+    .myaccount__x__table__project__td--status {
+        display: none;
+    }
+
+    .myaccount__x__table__project__tbody .myaccount__x__table__project__row {
+        padding-left: 180px;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .myaccount__x__table__project__td--budget {
+        width: 100%;
+    }
+
+    .myaccount__x__table__project__td--date {
+        width: 100%;
+    }
+
+    .myaccount__x__table__project__td--bids {
+        width: 100%;
+    }
+
+    .footer__new__info {
+        order: -1;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .footer__new__post {
+        width: 64%;
+        margin: 0;
+    }
+
+    .footer__new__menu {
+        width: 36%;
+        flex: auto;
+        padding: 0;
+    }
+
+    .myaccount__x_content__block__title__value__raiting {
+        font-size: 18px;
+    }
+
+    .myaccount__x_about__table__raiting {
+        margin-top: 0;
+        padding-top: 6px;
+        font-size: 14px;
+    }
+
+    .myaccount__x_content__quick__links a {
+        font-size: 15px;
+    }
+
+    .myaccount__x_post__list {
+        margin-top: 20px;
+    }
+
+    .myaccount__x_go_up__item__info {
+        font-size: 14px;
+    }
+
+    .myaccount__x_go_up__item__title {
+        font-size: 18px;
+        min-height: 44px;
+        margin-bottom: 15px;
+    }
+
+    .myaccount__x_go_up__row {
+        gap: 20px;
+    }
+
+    .myaccount__x_status__list__item {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .myaccount__x_give_endorsement__item:last-child {
+        padding-bottom: 40px;
+    }
+    .myaccount__x_give_endorsement__item__project {
+        position: absolute;
+        left: 0;
+        top: calc(100% - 39px);
+        width: 175px;
+    }
+
+    .myaccount__x_give_endorsement__item {
+        position: relative;
+        padding-bottom: 40px;
+    }
+
+    .myaccount__x_give_endorsement__item__man {
+        width: 175px;
+    }
+
+    .myaccount__x_give_endorsement__item__deals {
+        flex: 1;
+    }
+    .myaccount__x_give_endorsement__item__top .myaccount__x_give_endorsement__item__project {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    .myaccount__new .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .myaccount__x_side__edit {
+        width: 100%;
+        position: static;
+    }
+
+    .myaccount__x_content__block__title__all__link {
+        position: static;
+        margin-left: 20px;
+    }
+
+    .myaccount__x_side {
+        width: 100%;
+        position: static;
+    }
+
+    .myaccount__x_content__block__title.active {
+        margin-bottom: 0;
+        /* transition-delay: 0.4s; */
+    }
+
+    .myaccount__x_content__block__title__value__raiting {
+        position: static;
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 17px;
+        margin-top: 1px;
+        vertical-align: middle;
+    }
+
+    .myaccount__x_content__block__all_post__link {
+        position: static;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 30px;
+    }
+
+    .myaccount__x_content__block__title.active .btn__myaccount__x_accordeon svg {
+        transform: rotate(180deg);
+    }
+
+    .btn__myaccount__x_accordeon {
+        display: block;
+        transition: 0.25s;
+        transform-origin: 50% 50%;
+    }
+
+    .myaccount__x_content__block__title {
+        padding-right: 35px;
+        transition: 0.25s;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .footer__new__post {
+        width: 100%;
+        margin-bottom: 20px;
+        border-bottom: 1px solid;
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .footer__new__menu {
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .footer__new {
+        padding: 32px 0;
+    }
+
+    .footer__new__info {
+        border-top: 1px solid;
+        padding-top: 26px;
+        order: 2;
+        margin-bottom: 0;
+    }
+
+    .footer__new__logo {
+        max-width: 210px;
+        margin-bottom: 24px;
+    }
+}
+
+
+
+@media screen and (max-width:550px) {
+    .myaccount__x_give_endorsement__block {
+        font-size: 13px;
+    }
+
+    .myaccount__x_give_endorsement__item__man {
+        width: 130px;
+    }
+
+    .myaccount__x_give_endorsement__item__project {
+        width: 130px;
+        top: calc(100% - 31px);
+    }
+
+    .endorse_skills_link svg {
+        display: none;
+    }
+
+    .endorse_skills_link {
+        margin: 0px 0 0;
+        font-size: 12px;
+        justify-content: flex-end;
+    }
+
+    .myaccount__x_give_endorsement__item__deals {
+        flex: none;
+    }
+
+    .myaccount__x_give_endorsement__item__status {
+        flex: 1;
+        text-align: right;
+    }
+
+    .myaccount__x_give_endorsement__item {
+        padding: 15px 0 30px;
+    }
+
+    .myaccount__x_give_endorsement__item:last-child {
+        padding-bottom: 30px;
+    }
+
+    .myaccount__x_give_endorsement__list {
+        padding-bottom: 0;
+    }
+    .myaccount__x_content__block__title__back {
+        font-size: 14px;
+    }
+
+    .myaccount__x_content__block__title__back svg {
+        margin-top: 0;
+    }
+    .myaccount__x_post__item {
+        width: calc(50% - 5px);
+        flex: none;
+    }
+
+    .myaccount__x_content__quick__links a {
+        font-size: 14px;
+        padding: 7px 1px;
+    }
+
+    .myaccount__x_table__raiting__value {
+        width: 70px;
+    }
+
+    .myaccount__x_about__table__raiting {
+        font-size: 13px;
+    }
+
+    .myaccount__x_post__list {
+        gap: 10px;
+    }
+
+    .myaccount__x_go_up__item__title {
+        min-height: 0;
+    }
+
+    .myaccount__x_go_up__row {
+        flex-direction: column;
+    }
+
+    .myaccount__x_go_up__item__info {
+        min-height: 0;
+        flex: none;
+    }
+
+    .myaccount__x_go_up__item {
+        flex-basis: 0;
+    }
+
+    .myaccount__x_status__list__item__expire {
+        padding-left: 0;
+    }
+
+    .myaccount__x_status__list__item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        font-size: 14px;
+        position: relative;
+    }
+
+    .myaccount__x_status__list__item__link {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .myaccount__x_content__block__all_post__link {
+        background: #2c33c1;
+        color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 0;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 10px;
+        width: 140px;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .myaccount__x_side {
+        width: 100%;
+        max-width: 360px;
+    }
+
+
+    .footer__new__post {
+        font-size: 13px;
+    }
+
+    .footer__new__menu {
+        font-size: 13px;
+    }
+
+    .footer__new__logo img {
+        width: 160px;
+        margin-bottom: 5px;
+    }
+
+    .footer__new__logo__text {
+        font-size: 12px;
+    }
+
+    .footer__new__logo {
+        max-width: initial;
+        display: inline-flex;
+        margin-bottom: 12px;
+    }
+
+    .footer__new__social a {
+        padding: 8px;
+    }
+
+    .footer__new__social {
+        margin-bottom: 15px;
+        gap: 15px;
+    }
+
+    .footer__new__copyright {
+        font-size: 13px;
+    }
+
+    .myaccount__x_side__block {
+        font-size: 15px;
+    }
+
+    .myaccount__x__table__project__td.myaccount__x__table__project__td--name {
+        width: 135px;
+    }
+
+    .myaccount__x__table__project__row {
+        font-size: 13px;
+    }
+
+    .myaccount__x__table__project__tbody .myaccount__x__table__project__row {
+        padding-left: 140px;
+        gap: 5px;
+    }
+
+    .myaccount__x__table__project__td:before {
+        font-size: inherit;
+    }
+
+    .myaccount__x__table__project__tbody .myaccount__x__table__project__row {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .myaccount__x_content__review__item__title {
+        font-size: 15px;
+    }
+
+    .myaccount__x_content__review__item__info .def__text {
+        font-size: 12.5px;
+    }
+
+    .myaccount__x_content__block__title__all__link {
+        display: block;
+        margin: 0;
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    .account_give_endorsement__list {
+        gap: 35px 20px;
+    }
+
+    .account_give_endorsement__item__info {
+        font-size: 14px;
+    }
+
+    .account_give_endorsement__item {
+        width: calc(100% / 3 - 20px);
+        flex: 1 0 120px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .myaccount__x_content__block {
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+    }
+
+    .myaccount__x_side {
+        margin: 0 -20px 0;
+        width: calc(100% + 40px);
+    }
+
+    .myaccount__x_side__block {
+        font-size: 14px;
+    }
+}
