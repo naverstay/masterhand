@@ -13,31 +13,7 @@
         </div>
 
         <div class="myaccount__x_side_info__btn">
-            <a href="#" class="btn__default btn__purple">Send message</a>
-            <a href="#" class="btn__default btn__ghost">Invite to project</a>
-        </div>
-    </div>
-
-    <div class="myaccount__x_side__block myaccount__x_side__block--rate">
-        <div class="myaccount__x_side__block__row myaccount__x_side__block__row--purple">
-            <div class="myaccount__x_side__block__title">Contacts</div>
-            <div class="myaccount__x_side__block__value">
-                <button class="js_btn__myaccount__x_side_drop btn__myaccount__x_side_drop">
-                    <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1L7 7L13 1" stroke="#2C33C1" stroke-width="1.5" stroke-linecap="round"
-                              stroke-linejoin="round"/>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <div class="myaccount__x_side__block__row">
-            <div class="myaccount__x_side__block__title">E-mail</div>
-            <div class="myaccount__x_side__block__value"><a
-                        href="mailto:heatherclark@gmail.com">heatherclark@gmail.com</a></div>
-        </div>
-        <div class="myaccount__x_side__block__row">
-            <div class="myaccount__x_side__block__title">Phone</div>
-            <div class="myaccount__x_side__block__value"><a href="tel:+44 121 523 6347">+44 121 523 6347</a></div>
+            <a href="#" class="btn__default btn__purple">Edit profile</a>
         </div>
     </div>
 
