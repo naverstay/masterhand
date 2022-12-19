@@ -45,7 +45,7 @@
     }
 
     .account_give_endorsement__list {
-        margin-top: 30px;
+        /*margin-top: 30px;*/
     }
 
     .myaccount__x_content__review__item {
@@ -80,7 +80,6 @@
     }
 
     .myaccount__x_content__block__title {
-        font-size: 18px;
         margin-bottom: 15px;
     }
 
@@ -180,14 +179,9 @@
         padding: 0;
     }
 
-    .myaccount__x_content__block__title__value__raiting {
-        font-size: 18px;
-    }
-
     .myaccount__x_about__table__raiting {
         margin-top: 0;
-        padding-top: 6px;
-        font-size: 14px;
+        gap: 11px;
     }
 
     .myaccount__x_content__quick__links a {
@@ -198,23 +192,22 @@
         margin-top: 20px;
     }
 
-    .myaccount__x_go_up__item__info {
-        font-size: 14px;
+    .myaccount__x_go_up__item__more {
+        padding-top: 12px;
     }
 
     .myaccount__x_go_up__item__title {
-        font-size: 18px;
         min-height: 44px;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
 
-    .myaccount__x_go_up__row {
-        gap: 20px;
-    }
+    /*.myaccount__x_go_up__row {*/
+    /*    gap: 20px;*/
+    /*}*/
 
-    .myaccount__x_status__list__item {
-        font-size: 14px;
-    }
+    /*.myaccount__x_status__list__item {*/
+    /*    font-size: 14px;*/
+    /*}*/
 }
 
 @media screen and (max-width: 1000px) {
@@ -261,8 +254,7 @@
     }
 
     .myaccount__x_content__block__title__all__link {
-        position: static;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .myaccount__x_side {
@@ -276,12 +268,10 @@
     }
 
     .myaccount__x_content__block__title__value__raiting {
-        position: static;
-        display: inline-block;
-        margin-left: 10px;
-        font-size: 17px;
-        margin-top: 1px;
-        vertical-align: middle;
+        /*position: static;*/
+        /*display: inline-block;*/
+        /*margin-left: 10px;*/
+        /*vertical-align: middle;*/
     }
 
     .myaccount__x_content__block__all_post__link {
@@ -302,7 +292,6 @@
     }
 
     .myaccount__x_content__block__title {
-        padding-right: 35px;
         transition: 0.25s;
     }
 
@@ -322,7 +311,7 @@
         text-align: center;
         top: auto;
         padding-top: 15px;
-        border-top: 1px solid #E6E6E6;
+        border-top: 1px solid #e6e6e6;
     }
 }
 
@@ -355,6 +344,25 @@
     .footer__new__logo {
         max-width: 210px;
         margin-bottom: 24px;
+    }
+
+    .myaccount__x_content__block__article {
+        padding-bottom: 10px;
+    }
+
+    .myaccount__x_content__block__article {
+        text-align: center;
+    }
+
+    .myaccount__x_content__block__article p {
+        margin: 12px 0 26px;
+    }
+
+    .myaccount__x_content__block__image {
+        float: none;
+        padding: 0 0 20px;
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -419,15 +427,11 @@
 
     .myaccount__x_content__quick__links a {
         font-size: 14px;
-        padding: 7px 1px;
+        padding: 8px 1px;
     }
 
     .myaccount__x_table__raiting__value {
         width: 70px;
-    }
-
-    .myaccount__x_about__table__raiting {
-        font-size: 13px;
     }
 
     .myaccount__x_post__list {
@@ -453,20 +457,24 @@
 
     .myaccount__x_status__list__item__expire {
         padding-left: 0;
+        padding-right: 12px;
+        line-height: 1.2;
+        text-align: right;
     }
 
     .myaccount__x_status__list__item {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 4px;
-        font-size: 14px;
+        justify-content: space-between;
+        align-items: center;
         position: relative;
+        padding-top: 12px;
+        padding-bottom: 6px;
     }
 
     .myaccount__x_status__list__item__link {
         position: absolute;
         right: 0;
-        bottom: 0;
+        bottom: 100%;
+        margin-bottom: 6px;
     }
 
     .myaccount__x_content__block__all_post__link {
@@ -525,7 +533,7 @@
     }
 
     .myaccount__x_side__block {
-        font-size: 15px;
+        gap: 13px;
     }
 
     .myaccount__x__table__project__td.myaccount__x__table__project__td--name {
@@ -558,24 +566,26 @@
         font-size: 12.5px;
     }
 
-    .myaccount__x_content__block__title__all__link {
-        display: block;
-        margin: 0;
-        text-align: left;
-        margin-top: 5px;
-    }
-
     .account_give_endorsement__list {
-        gap: 35px 20px;
-    }
-
-    .account_give_endorsement__item__info {
-        font-size: 14px;
+        gap: 24px 16px;
     }
 
     .account_give_endorsement__item {
         width: calc(100% / 3 - 20px);
-        flex: 1 0 120px;
+        flex: 1 0 101px;
+    }
+
+    .account_give_endorsement__item__pos {
+        font-size: 14px;
+    }
+
+    .account_give_endorsement__item__image {
+        margin-bottom: 18px;
+    }
+
+    .myaccount__x_content__block {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 

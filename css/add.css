@@ -233,7 +233,6 @@
 }
 
 .myaccount__x_side__block__title {
-    font-weight: 400;
     flex: 57%;
 }
 
@@ -252,6 +251,7 @@
 
 .myaccount__x_side__block__row--category__title {
     color: #2c33c1;
+    font-weight: 500;
 }
 
 .myaccount__x_side_social {
@@ -261,7 +261,7 @@
     align-items: center;
     justify-content: center;
     gap: 17px;
-    margin-bottom: -7px;
+    margin-bottom: -5px;
 }
 
 .myaccount__x_side_social a {
@@ -370,6 +370,22 @@
     padding: 25px 25px 25px;
 }
 
+.myaccount__x_content__block.myaccount__x_content__block--account_give_endorsement {
+    padding-bottom: 20px;
+}
+
+.myaccount__x_content__block.myaccount__x_content__block--account_give_endorsement .myaccount__x_content__block__title {
+    margin-bottom: 20px;
+}
+
+.myaccount__x_content__block.myaccount__x_content__block--account_status {
+    padding-bottom: 15px;
+}
+
+.myaccount__x_content__block.myaccount__x_content__block--account_status .myaccount__x_content__block__title {
+    margin-bottom: 10px;
+}
+
 .myaccount__x_content__block__title {
     font-weight: 500;
     font-size: 24px;
@@ -377,6 +393,9 @@
     color: #000;
     position: relative;
     margin-bottom: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .myaccount__x_content__block__title:not(:first-child) {
@@ -390,8 +409,34 @@
 .myaccount__x_content__block__holder {
     position: relative;
     margin-top: 20px;
-    padding-top: 25px;
+    padding-top: 20px;
     border-top: 1px solid #e6e6e6;
+}
+
+.myaccount__x_content__block__article {
+    padding-top: 15px;
+    margin-bottom: -15px;
+}
+
+.myaccount__x_content__block__article p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #808080;
+}
+
+.myaccount__x_content__block__image {
+    float: left;
+    width: 205px;
+    padding: 10px 30px 20px 0;
+    text-align: right;
+}
+
+.myaccount__x_content__block__caption {
+    font-family: 'GothamProMedium', sans-serif;
+    font-size: 24px;
+    line-height: 130%;
+    color: #2c33c1;
+    margin-bottom: 12px;
 }
 
 .btn__myaccount__x_accordeon {
@@ -440,6 +485,7 @@
 
 .myaccount__x_content__block__title--gray {
     margin-left: 5px;
+    margin-right: auto;
     color: #bfbfbf;
     font-weight: 400;
     position: relative;
@@ -606,7 +652,7 @@ span.myaccount__x__table__project_name {
     flex: 1;
     text-align: center;
     justify-content: center;
-    padding: 10px;
+    padding: 7px;
     border-radius: 15px;
     font-weight: 500;
     font-size: 16px;
@@ -632,13 +678,8 @@ span.myaccount__x__table__project_name {
 
 .myaccount__x_content__block__title__value__raiting {
     font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
     text-align: right;
     color: #2c33c1;
-    position: absolute;
-    right: -2px;
-    top: -2px;
 }
 
 .myaccount__x_table__raiting__row {
@@ -685,7 +726,17 @@ span.myaccount__x__table__project_name {
     right: -9px;
 }
 
-.myaccount__x_content__block__write__link,
+.myaccount__x_content__block__write__link {
+    position: absolute;
+    right: -2px;
+    font-size: 16px;
+    top: 5px;
+}
+
+.myaccount__x_content__block__write__link span {
+    padding-left: 5px;
+}
+
 .myaccount__x_content__block__all_post__link {
     position: absolute;
     right: -2px;
@@ -754,7 +805,7 @@ span.myaccount__x__table__project_name {
     box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     flex: 1;
-    padding: 23px 25px;
+    padding: 20px 25px;
     color: #000;
     display: flex;
     flex-direction: column;
@@ -764,6 +815,11 @@ span.myaccount__x__table__project_name {
 .myaccount__x_go_up__item.__wide {
     flex: 1 0 auto;
     width: 100%;
+}
+
+.myaccount__x_go_up__item.__wide .myaccount__x_go_up__item__info,
+.myaccount__x_go_up__item.__wide .myaccount__x_go_up__item__title {
+    min-height: unset;
 }
 
 .myaccount__x_go_up__row {
@@ -781,14 +837,15 @@ span.myaccount__x__table__project_name {
     display: block;
     border-top: 1px solid #e6e6e6;
     padding-top: 15px;
+    margin-bottom: -10px;
 }
 
 .myaccount__x_go_up__item__title {
     font-weight: 500;
     font-size: 24px;
-    line-height: 1.2;
+    line-height: 130%;
     color: #000;
-    margin-bottom: 26px;
+    margin-bottom: 10px;
     min-height: 57px;
 }
 
@@ -797,11 +854,15 @@ span.myaccount__x__table__project_name {
     font-weight: 400;
     min-height: 100px;
     flex: 1;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .myaccount__x_go_up__item__more:hover {
     color: #000;
+}
+
+.myaccount__x_status__list {
+    margin-right: -12px;
 }
 
 .myaccount__x_status__list__item {
@@ -815,13 +876,13 @@ span.myaccount__x__table__project_name {
 
 .myaccount__x_status__list__item__expire {
     flex: 1;
-    padding-left: 50px;
+    padding-left: 35px;
 }
 
 .myaccount__x_status__list__item__name {
     font-weight: 500;
     line-height: 1.2;
-    color: #24B021;
+    color: #24b021;
 }
 
 .myaccount__x_status__list__item__link {
@@ -925,9 +986,6 @@ span.myaccount__x__table__project_name {
     align-items: center;
 }
 
-.myaccount__x_content__block--review .myaccount__x_content__block__title {
-}
-
 .myaccount__x_content__review__item__title {
     font-weight: 500;
     font-size: 20px;
@@ -1002,9 +1060,7 @@ span.myaccount__x__table__project_name {
     line-height: 150%;
     text-align: right;
     color: #2c33c1;
-    position: absolute;
-    right: -2px;
-    top: 2px;
+    flex: 1 0 auto;
 }
 
 .myaccount__x_content__block__title__all__link:hover {

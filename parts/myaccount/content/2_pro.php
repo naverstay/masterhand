@@ -10,14 +10,8 @@
 
     <div class="myaccount__x_content__block__raiting js__myaccount__x_accordeon">
         <div class="myaccount__x_content__block__title">
-            My rating
+            <span>My rating</span>
             <div class="myaccount__x_content__block__title__value__raiting">+984 836</div>
-            <button class="btn__myaccount__x_accordeon js_btn__myaccount__x_accordeon">
-                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1L7 7L13 1" stroke="#2C33C1" stroke-width="1.5" stroke-linecap="round"
-                          stroke-linejoin="round"/>
-                </svg>
-            </button>
         </div>
         <div class="myaccount__x_accordeon__content">
             <div class="myaccount__x_about__table__raiting">
@@ -86,12 +80,6 @@
                         class="myaccount__x_content__block__new__post">3</span></span>
 
             <a href="" class="myaccount__x_content__block__all_post__link">View all</a>
-            <button class="btn__myaccount__x_accordeon js_btn__myaccount__x_accordeon">
-                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1L7 7L13 1" stroke="#2C33C1" stroke-width="1.5" stroke-linecap="round"
-                          stroke-linejoin="round"/>
-                </svg>
-            </button>
         </div>
 
         <div class="myaccount__x_accordeon__content">
@@ -133,6 +121,20 @@
                     <span>Write an article</span></a>
             </div>
 
+            <div class="myaccount__x_content__block__article clearfix">
+                <div class="myaccount__x_content__block__image">
+                    <img src="images/myaccount/icons/news.svg">
+                </div>
+
+                <div class="myaccount__x_content__block__caption">
+                    There is not a single written article
+                </div>
+
+                <p>
+                    Published articles help your business grow. <br />
+                    You can write an article yourself, or ask for help from our specialist.
+                </p>
+            </div>
         </div>
     </div>
 </div>
@@ -143,7 +145,8 @@
             <div class="myaccount__x_go_up__item __wide">
                 <div class="myaccount__x_go_up__item__title">Business promotion with Know-How</div>
                 <div class="myaccount__x_go_up__item__info">
-                    <div class="myaccount__x_go_up__item__text">Some 2-3 articles/posts per month would work very effectively to promote your
+                    <div class="myaccount__x_go_up__item__text">Some 2-3 articles/posts per month would work very
+                        effectively to promote your
                         business and support your brand with potential customers.
                     </div>
                 </div>
@@ -177,12 +180,6 @@
     <div class="myaccount__x_content__block__account_status js__myaccount__x_accordeon">
         <div class="myaccount__x_content__block__title">
             Account
-            <button class="btn__myaccount__x_accordeon js_btn__myaccount__x_accordeon">
-                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1L7 7L13 1" stroke="#2C33C1" stroke-width="1.5" stroke-linecap="round"
-                          stroke-linejoin="round"/>
-                </svg>
-            </button>
         </div>
         <div class="myaccount__x_accordeon__content">
             <div class="myaccount__x_status__list">
@@ -209,13 +206,6 @@
             <span class="myaccount__x_content__block__title--gray">(5)</span>
 
             <a href="" class="myaccount__x_content__block__title__all__link">View all</a>
-
-            <button class="btn__myaccount__x_accordeon js_btn__myaccount__x_accordeon">
-                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1L7 7L13 1" stroke="#2C33C1" stroke-width="1.5" stroke-linecap="round"
-                          stroke-linejoin="round"/>
-                </svg>
-            </button>
         </div>
         <div class="myaccount__x_accordeon__content">
             <div class="account_give_endorsement__list">
