@@ -171,9 +171,9 @@
         </div>
         <div class="myaccount__x__table__pagination pagination_x">
             <ul>
-                <li><a href="">1</a></li>
-                <li><a href="">2</a></li>
-                <li><a href="" class='active'>3</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#" class='active'>3</a></li>
             </ul>
         </div>
     </div>
@@ -297,9 +297,9 @@
         </div>
         <div class="myaccount__x__table__pagination pagination_x">
             <ul>
-                <li><a href="">1</a></li>
-                <li><a href="">2</a></li>
-                <li><a href="" class='active'>3</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#" class='active'>3</a></li>
             </ul>
         </div>
     </div>

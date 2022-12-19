@@ -456,7 +456,7 @@
 
 <div class="header__new js_header__new header__menu--static">
     <div class="container">
-        <a href="" class="header__logo">
+        <a href="#" class="header__logo">
             <img src="images/logo.svg">
             <div class="header__logo__text">Low-Cost Service Deals</div>
         </a>
@@ -464,29 +464,29 @@
         <nav class="header__menu">
             <ul>
                 <li class="has_sub_menu">
-                    <a href="">Professionals</a>
+                    <a href="#">Professionals</a>
                     <ul class="sub_menu">
                         <li><a href="#">Find Projects</a></li>
                         <li><a href="#">Create Profile</a></li>
                     </ul>
                 </li>
                 <li class="has_sub_menu">
-                    <a href="">Clients</a>
+                    <a href="#">Clients</a>
                     <ul class="sub_menu">
                         <li><a href="#">Post a Project</a></li>
                         <li><a href="#">Find Professionals</a></li>
                     </ul>
                 </li>
-                <li><a href="">Know-How Society</a></li>
-                <li><a href="">How it works</a></li>
-                <li><a href="">Great Benefits</a></li>
+                <li><a href="#">Know-How Society</a></li>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Great Benefits</a></li>
             </ul>
         </nav>
 
         <div class="header__info">
             <div class="header__links">
-                <a href="">Login</a>
-                <a href="">Sign up</a>
+                <a href="#">Login</a>
+                <a href="#">Sign up</a>
             </div>
 
             <button class="btn__menu btn__header__menu js_btn_menu">

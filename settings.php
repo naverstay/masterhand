@@ -6,16 +6,16 @@
         <div class="myaccount__x_side__edit">
             <div class="myaccount__x_side__edit__menu">
                 <ul>
-                    <li><a href="">Profile</a></li>
-                    <li><a href="">Contacts & Security</a></li>
-                    <li><a href="">Social Profiles</a></li>
-                    <li><a href="">Skills</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Contacts & Security</a></li>
+                    <li><a href="#">Social Profiles</a></li>
+                    <li><a href="#">Skills</a></li>
                 </ul>
             </div>
 
             <div class="myaccount__x_side__edit__menu">
                 <ul>
-                    <li><a href="">Appearance</a></li>
+                    <li><a href="#">Appearance</a></li>
                 </ul>
             </div>
         </div>

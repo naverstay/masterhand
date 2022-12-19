@@ -152,6 +152,7 @@
 }
 
 .myaccount__x_content {
+    width: 100%;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -374,7 +375,12 @@
     padding-bottom: 20px;
 }
 
-.myaccount__x_content__block.myaccount__x_content__block--account_give_endorsement .myaccount__x_content__block__title {
+.myaccount__x_content__block.myaccount__x_content__block--give_endorsement {
+    padding: 20px 25px 0;
+}
+
+.myaccount__x_content__block.myaccount__x_content__block--give_endorsement .myaccount__x_content__block__title,
+.myaccount__x_content__block--account_give_endorsement .myaccount__x_content__block__title {
     margin-bottom: 20px;
 }
 
@@ -602,15 +608,17 @@ span.myaccount__x__table__project_name {
     display: flex;
     padding: 0;
     gap: 6px;
+    margin: 0 -4px;
 }
 
 .pagination_x {
-    margin-top: 22px;
+    padding: 25px 0;
+    border-top: 1px solid #e6e6e6;
 }
 
 .pagination_x a {
     color: #808080;
-    padding: 2px 5px;
+    padding: 2px 4px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -621,6 +629,7 @@ span.myaccount__x__table__project_name {
     border: 1.5px solid #2c33c1;
     border-radius: 5px;
     color: #000;
+    font-weight: 500;
 }
 
 .pagination_x a:hover {
@@ -1174,17 +1183,12 @@ span.myaccount__x__table__project_name {
 }
 
 .myaccount__x_content__block__title__back {
-    position: absolute;
-    right: 0;
-    top: 5px;
     font-size: 16px;
     display: inline-flex;
     align-items: center;
-    font-weight: 400;
 }
 
 .myaccount__x_content__block__title--top {
-    margin-top: 5px;
     margin-bottom: 0;
 }
 
@@ -1202,25 +1206,34 @@ span.myaccount__x__table__project_name {
 }
 
 .myaccount__x_give_endorsement__item {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     gap: 15px;
     border-top: 1px solid #e6e6e6;
-    padding: 23px 0;
+    padding: 25px 0;
     align-items: center;
     font-weight: 400;
+    grid-template-columns: auto 190px 50px 175px;
+    grid-template-areas: "refferal project deals status";
+}
+
+.myaccount__x_give_endorsement__item .myaccount__x_give_endorsement__item__status {
+    margin: 0 -20px;
 }
 
 .myaccount__x_give_endorsement__item__top {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 190px 50px 175px;
+    grid-template-areas: "refferal project deals status";
     flex-wrap: wrap;
     color: #bfbfbf;
     padding-bottom: 12px;
     gap: 15px;
+    font-weight: 500;
 }
 
 .myaccount__x_give_endorsement__item__man {
-    flex: 1;
+    grid-area: refferal;
     display: flex;
     align-items: center;
 }
@@ -1240,23 +1253,28 @@ span.myaccount__x__table__project_name {
     margin-top: -5px;
 }
 
-.myaccount__x_give_endorsement__item:last-child {
-    padding-bottom: 0;
-}
-
 .myaccount__x_give_endorsement__item__status {
-    width: 192px;
+    grid-area: status;
     text-align: center;
+    white-space: nowrap;
 }
 
 .myaccount__x_give_endorsement__item__project {
-    width: 165px;
+    grid-area: project;
     text-align: left;
 }
 
 .myaccount__x_give_endorsement__item__deals {
-    width: 60px;
+    grid-area: deals;
     text-align: center;
+}
+
+.myaccount__x_give_endorsement__item__status,
+.myaccount__x_give_endorsement__item__deals {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .endorse_skills_link svg {
@@ -1266,7 +1284,7 @@ span.myaccount__x__table__project_name {
 }
 
 .endorse_skills_link {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     font-size: 14px;
@@ -1294,6 +1312,6 @@ span.myaccount__x__table__project_name {
 }
 
 .myaccount__x_give_endorsement__list {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     color: #000;
 }

@@ -89,10 +89,10 @@
         </div>
     </div>
     <div class="myaccount__x_side_social">
-        <a href="" target='_blank'><img src="images/myaccount/social/fb.svg"></a>
-        <a href="" target='_blank'><img src="images/myaccount/social/tw.svg"></a>
-        <a href="" target='_blank'><img src="images/myaccount/social/inst.svg"></a>
-        <a href="" target='_blank'><img src="images/myaccount/social/link.svg"></a>
-        <a href="" target='_blank'><img src="images/myaccount/social/tg.svg"></a>
+        <a href="#" target='_blank'><img src="images/myaccount/social/fb.svg"></a>
+        <a href="#" target='_blank'><img src="images/myaccount/social/tw.svg"></a>
+        <a href="#" target='_blank'><img src="images/myaccount/social/inst.svg"></a>
+        <a href="#" target='_blank'><img src="images/myaccount/social/link.svg"></a>
+        <a href="#" target='_blank'><img src="images/myaccount/social/tg.svg"></a>
     </div>
 </div>

@@ -1,6 +1,6 @@
 <div class="myaccount__x_content__quick__links">
-    <a href="" class='active'>Main page</a>
-    <a href="">
+    <a href="#" class='active'>Main page</a>
+    <a href="#">
         <span class="hidden-sm">Info</span>
         <span class="hidden-xs">Information</span>
         & Reviews</a>
@@ -79,30 +79,30 @@
             <span class="myaccount__x_content__block__title--gray">(4) <span
                         class="myaccount__x_content__block__new__post">3</span></span>
 
-            <a href="" class="myaccount__x_content__block__all_post__link">View all</a>
+            <a href="#" class="myaccount__x_content__block__all_post__link">View all</a>
         </div>
 
         <div class="myaccount__x_accordeon__content">
             <div class="myaccount__x_post__list">
-                <a href="" class="myaccount__x_post__item">
+                <a href="#" class="myaccount__x_post__item">
                     <div class="myaccount__x_post__item__image">
                         <img src="images/myaccount/post/1.jpg" alt="">
                     </div>
                     <div class="myaccount__x_post__item__cat">Work and service</div>
                 </a>
-                <a href="" class="myaccount__x_post__item">
+                <a href="#" class="myaccount__x_post__item">
                     <div class="myaccount__x_post__item__image">
                         <img src="images/myaccount/post/2.jpg" alt="">
                     </div>
                     <div class="myaccount__x_post__item__cat">Life success</div>
                 </a>
-                <a href="" class="myaccount__x_post__item">
+                <a href="#" class="myaccount__x_post__item">
                     <div class="myaccount__x_post__item__image">
                         <img src="images/myaccount/post/3.jpg" alt="">
                     </div>
                     <div class="myaccount__x_post__item__cat">LIFEHACKS & TIPS</div>
                 </a>
-                <a href="" class="myaccount__x_post__item">
+                <a href="#" class="myaccount__x_post__item">
                     <div class="myaccount__x_post__item__image">
                         <img src="images/myaccount/post/4.jpg" alt="">
                     </div>
@@ -116,7 +116,7 @@
                 Your published articles
                 <span class="myaccount__x_content__block__title--gray">(0)</span>
 
-                <a href="" class="myaccount__x_content__block__write__link">
+                <a href="#" class="myaccount__x_content__block__write__link">
                     <img src="images/myaccount/icons/pen.svg">
                     <span>Write an article</span></a>
             </div>
@@ -150,7 +150,7 @@
                         business and support your brand with potential customers.
                     </div>
                 </div>
-                <a href="" class="myaccount__x_go_up__item__more">More details</a>
+                <a href="#" class="myaccount__x_go_up__item__more">More details</a>
             </div>
 
             <div class="myaccount__x_go_up__item">
@@ -160,7 +160,7 @@
                         PRO plan to get benefits from it.
                     </div>
                 </div>
-                <a href="" class="myaccount__x_go_up__item__more">More details</a>
+                <a href="#" class="myaccount__x_go_up__item__more">More details</a>
             </div>
             <div class="myaccount__x_go_up__item">
                 <div class="myaccount__x_go_up__item__title">Why referals are very important for PRO</div>
@@ -169,7 +169,7 @@
                         constantly. Share your profile via email, in social networks, and even offline.
                     </div>
                 </div>
-                <a href="" class="myaccount__x_go_up__item__more">More details</a>
+                <a href="#" class="myaccount__x_go_up__item__more">More details</a>
             </div>
         </div>
     </div>
@@ -186,7 +186,7 @@
                 <div class="myaccount__x_status__list__item">
                     <div class="myaccount__x_status__list__item__name">Premium PRO</div>
                     <div class="myaccount__x_status__list__item__expire">Expire on May 31, 2023</div>
-                    <a href="" class="myaccount__x_status__list__item__link">
+                    <a href="#" class="myaccount__x_status__list__item__link">
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 13L7 7L0.999999 1" stroke="black" stroke-width="2" stroke-linecap="round"
                                   stroke-linejoin="round"/>
@@ -205,7 +205,7 @@
             Give Endorsement
             <span class="myaccount__x_content__block__title--gray">(5)</span>
 
-            <a href="" class="myaccount__x_content__block__title__all__link">View all</a>
+            <a href="#" class="myaccount__x_content__block__title__all__link">View all</a>
         </div>
         <div class="myaccount__x_accordeon__content">
             <div class="account_give_endorsement__list">
@@ -266,7 +266,7 @@
                     </div>
                     <div class="account_give_endorsement__item__info">
                         <div class="account_give_endorsement__item__title">
-                            <a href="">+ Add</a>
+                            <a href="#">+ Add</a>
                         </div>
                     </div>
                 </div>
