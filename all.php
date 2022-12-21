@@ -13,6 +13,7 @@
         <li><a href="3.php">page 3</a></li>
         <li><a href="settings.php">page 4</a></li>
 
+        <li><a href="about_pro.php">about_pro</a></li>
         <li><a href="account_pro.php">account_pro</a></li>
         <li><a href="give_endorsement_pro.php">give_endorsement_pro</a></li>
     </ul>

@@ -75,11 +75,11 @@
     <div class="myaccount__x_content__block__post js__myaccount__x_accordeon">
 
         <div class="myaccount__x_content__block__title">
-            Know-How Society
+            <span>Know-How Society</span>
             <span class="myaccount__x_content__block__title--gray">(4) <span
                         class="myaccount__x_content__block__new__post">3</span></span>
 
-            <a href="#" class="myaccount__x_content__block__all_post__link">View all</a>
+            <a href="#" class="myaccount__x_content__block__title__all__link">View all</a>
         </div>
 
         <div class="myaccount__x_accordeon__content">

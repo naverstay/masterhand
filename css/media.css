@@ -19,7 +19,7 @@
 
     .myaccount__x_give_endorsement__item__status,
     .myaccount__x_give_endorsement__item__deals {
-        margin-bottom: -16px  !important;
+        margin-bottom: -16px !important;
     }
 
     .endorse_skills_link {
@@ -208,6 +208,10 @@
         gap: 15px;
     }
 
+    .myaccount__x_content__quick__links {
+        margin-bottom: 0;
+    }
+
     /*.myaccount__x_go_up__row {*/
     /*    gap: 20px;*/
     /*}*/
@@ -242,10 +246,15 @@
     }
 }
 
-
 @media screen and (max-width: 992px) {
     .myaccount__new .container {
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 851px) {
+    .myaccount__x_accordeon__content {
+        display: block !important;
     }
 }
 
@@ -285,12 +294,6 @@
 
     .myaccount__x_content__block__title.active .btn__myaccount__x_accordeon svg {
         transform: rotate(180deg);
-    }
-
-    .btn__myaccount__x_accordeon {
-        display: block;
-        transition: 0.25s;
-        transform-origin: 50% 50%;
     }
 
     .myaccount__x_content__block__title {
@@ -425,11 +428,6 @@
         margin-top: 0;
     }
 
-    .myaccount__x_post__item {
-        width: calc(50% - 5px);
-        flex: none;
-    }
-
     .myaccount__x_content__quick__links a {
         font-size: 14px;
         padding: 8px 1px;
@@ -440,6 +438,7 @@
     }
 
     .myaccount__x_post__list {
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
 

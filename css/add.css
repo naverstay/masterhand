@@ -371,17 +371,24 @@
     padding: 25px 25px 25px;
 }
 
+.myaccount__x_content__block.myaccount__x_content__block--review {
+    padding-top: 20px;
+}
+
+.myaccount__x_content__block.myaccount__x_content__block--review .myaccount__x_content__block__title--gray {
+    margin-right: unset;
+}
+
 .myaccount__x_content__block.myaccount__x_content__block--account_give_endorsement {
     padding-bottom: 20px;
 }
 
-.myaccount__x_content__block.myaccount__x_content__block--give_endorsement {
-    padding: 20px 25px 0;
+.myaccount__x_content__block.myaccount__x_content__block--about {
+    padding-top: 20px;
 }
 
-.myaccount__x_content__block.myaccount__x_content__block--give_endorsement .myaccount__x_content__block__title,
-.myaccount__x_content__block--account_give_endorsement .myaccount__x_content__block__title {
-    margin-bottom: 20px;
+.myaccount__x_content__block.myaccount__x_content__block--give_endorsement {
+    padding: 20px 25px 0;
 }
 
 .myaccount__x_content__block.myaccount__x_content__block--account_status {
@@ -398,7 +405,7 @@
     line-height: 1.2;
     color: #000;
     position: relative;
-    margin-bottom: 27px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -410,6 +417,10 @@
 
 .myaccount__x_content__block__title--skills {
     margin-bottom: 0;
+}
+
+.myaccount__x_content__block__title--portfolio {
+    margin-bottom: 30px;
 }
 
 .myaccount__x_content__block__holder {
@@ -453,9 +464,10 @@
     top: 50%;
     transform: translate(0, -50%);
     background: transparent;
+    transition: 0.25s;
+    transform-origin: 50% 50%;
     border: none;
     appearance: none;
-    display: none;
 }
 
 .btn__myaccount__x_accordeon svg {
@@ -489,8 +501,14 @@
     padding-bottom: 0;
 }
 
+
+.myaccount__x_about__skills__block + .myaccount__x_about__skills__block {
+    margin-top: 24px;
+    border-top: 1px solid #e6e6e6;
+}
+
 .myaccount__x_content__block__title--gray {
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: auto;
     color: #bfbfbf;
     font-weight: 400;
@@ -614,6 +632,11 @@ span.myaccount__x__table__project_name {
 .pagination_x {
     padding: 25px 0;
     border-top: 1px solid #e6e6e6;
+}
+
+.pagination_b {
+    border-top: 0;
+    border-bottom: 1px solid #e6e6e6;
 }
 
 .pagination_x a {
@@ -775,14 +798,49 @@ span.myaccount__x__table__project_name {
 }
 
 .myaccount__x_post__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     flex-wrap: wrap;
     gap: 20px;
     margin-top: -5px;
 }
 
+.myaccount__x_post__item__info--views {
+    font-size: 12px;
+    line-height: 11px;
+    color: #bfc2ff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 4px;
+}
+
+.myaccount__x_post__item__info {
+    position: absolute;
+    padding: 8px;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    height: 35px;
+    background: rgba(44, 51, 193, 0.5);
+    backdrop-filter: blur(2.5px);
+}
+
+.myaccount__x_post__item__info p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 15px;
+    color: #fff;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-height: 63px;
+}
+
 .myaccount__x_post__item {
-    flex: 1;
     position: relative;
     border-radius: 3px;
     overflow: hidden;
@@ -806,6 +864,18 @@ span.myaccount__x__table__project_name {
 
 .myaccount__x_post__item:hover img {
     transform: scale(1.2);
+}
+
+.myaccount__x_post__item:hover .myaccount__x_post__item__info {
+    height: auto;
+}
+
+.myaccount__x_post__item:hover .myaccount__x_post__item__info p {
+    white-space: normal;
+    line-height: 130%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .myaccount__x_go_up__item {
@@ -912,7 +982,7 @@ span.myaccount__x__table__project_name {
 
 .myaccount__x_content__review__list {
     color: #000;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 
 .myaccount__x_content__review__item {
@@ -920,7 +990,7 @@ span.myaccount__x__table__project_name {
     align-items: flex-start;
     gap: 34px;
     border-bottom: 1px solid #e6e6e6;
-    padding: 22px 0;
+    padding: 20px 0;
 }
 
 .myaccount__x_content__review__item__info {
@@ -930,15 +1000,16 @@ span.myaccount__x__table__project_name {
 .myaccount__x_content__review__item__author__info {
     display: flex;
     align-items: flex-start;
-    padding-top: 5px;
     width: 235px;
 }
 
 .myaccount__x_content__review__item__author__avatar {
     width: 48px;
-    border-radius: 50%;
+    height: 48px;
+    border-radius: 100%;
     display: flex;
     margin-right: 15px;
+    margin-top: 5px;
 }
 
 .myaccount__x_content__review__item__author__inner {
@@ -976,7 +1047,8 @@ span.myaccount__x__table__project_name {
     font-size: 16px;
     display: flex;
     align-items: center;
-    margin-left: 17px;
+    margin-left: 14px;
+    margin-right: auto;
 }
 
 .review_y_star {
@@ -1051,7 +1123,7 @@ span.myaccount__x__table__project_name {
     display: flex;
     align-items: center;
     color: #2c33c1;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .myaccount__x_content__review__item__author__raiting .review_y_star__mark {

@@ -1,3 +1,12 @@
+<div class="myaccount__x_content__quick__links">
+    <a href="#" class='active'>Main page</a>
+    <a href="#">
+        <span class="hidden-sm">Info</span>
+        <span class="hidden-xs">Information</span>
+        & Reviews</a>
+</div>
+
+
 <div class="myaccount__x_content__block myaccount__x_content__block--about">
 
     <div class="myaccount__x_content__block__about js__myaccount__x_accordeon">
@@ -20,6 +29,174 @@
             </div>
         </div>
     </div>
+
+    <div class="myaccount__x_about__skills__block js__myaccount__x_accordeon">
+        <div class="myaccount__x_content__block__title myaccount__x_content__block__title--skills">
+            <span>Categories</span>
+            <button class="btn__myaccount__x_accordeon hidden-sm js_btn__myaccount__x_accordeon">
+                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L7 7L13 1" stroke="#2C33C1" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="myaccount__x_accordeon__content">
+            <div class="myaccount__x_skill__list">
+                <div class="myaccount__x_skill__item">Animal Control</div>
+                <div class="myaccount__x_skill__item">Apartment Cleaning</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="myaccount__x_about__skills__block">
+        <div class="myaccount__x_content__block__title myaccount__x_content__block__title--portfolio">
+            <span>Portfolio</span>
+            <span class="myaccount__x_content__block__title--gray">(21)</span>
+
+            <a href="#" class="myaccount__x_content__block__title__all__link">View all</a>
+        </div>
+
+        <div class="myaccount__x_post__list">
+            <a class="myaccount__x_post__item" href="#">
+                <div class="myaccount__x_post__item__image">
+                    <img src="images/myaccount/post/1.jpg" alt="">
+                </div>
+                <div class="myaccount__x_post__item__info">
+                    <p>
+                        Project example number 2
+                    </p>
+
+                    <div class="myaccount__x_post__item__info--views">
+                        <img src="images/myaccount/icons/eye.svg">
+                        <span>View the project</span>
+                    </div>
+                </div>
+            </a>
+            <a class="myaccount__x_post__item" href="#">
+                <div class="myaccount__x_post__item__image">
+                    <img src="images/myaccount/post/1.jpg" alt="">
+                </div>
+                <div class="myaccount__x_post__item__info">
+                    <p>
+                        Project example number 2
+                    </p>
+
+                    <div class="myaccount__x_post__item__info--views">
+                        <img src="images/myaccount/icons/eye.svg">
+                        <span>View the project</span>
+                    </div>
+                </div>
+            </a>
+            <a class="myaccount__x_post__item" href="#">
+                <div class="myaccount__x_post__item__image">
+                    <img src="images/myaccount/post/1.jpg" alt="">
+                </div>
+                <div class="myaccount__x_post__item__info">
+                    <p>
+                        Project example number 2
+                    </p>
+
+                    <div class="myaccount__x_post__item__info--views">
+                        <img src="images/myaccount/icons/eye.svg">
+                        <span>View the project</span>
+                    </div>
+                </div>
+            </a>
+            <a class="myaccount__x_post__item" href="#">
+                <div class="myaccount__x_post__item__image">
+                    <img src="images/myaccount/post/1.jpg" alt="">
+                </div>
+                <div class="myaccount__x_post__item__info">
+                    <p>
+                        Project example number 2
+                    </p>
+
+                    <div class="myaccount__x_post__item__info--views">
+                        <img src="images/myaccount/icons/eye.svg">
+                        <span>View the project</span>
+                    </div>
+                </div>
+            </a>
+            <a class="myaccount__x_post__item" href="#">
+                <div class="myaccount__x_post__item__image">
+                    <img src="images/myaccount/post/1.jpg" alt="">
+                </div>
+                <div class="myaccount__x_post__item__info">
+                    <p>
+                        Project example number 2
+                    </p>
+
+                    <div class="myaccount__x_post__item__info--views">
+                        <img src="images/myaccount/icons/eye.svg">
+                        <span>View the project</span>
+                    </div>
+                </div>
+            </a>
+            <a class="myaccount__x_post__item" href="#">
+                <div class="myaccount__x_post__item__image">
+                    <img src="images/myaccount/post/1.jpg" alt="">
+                </div>
+                <div class="myaccount__x_post__item__info">
+                    <p>
+                        Project example number 2
+                    </p>
+
+                    <div class="myaccount__x_post__item__info--views">
+                        <img src="images/myaccount/icons/eye.svg">
+                        <span>View the project</span>
+                    </div>
+                </div>
+            </a>
+            <a class="myaccount__x_post__item" href="#">
+                <div class="myaccount__x_post__item__image">
+                    <img src="images/myaccount/post/1.jpg" alt="">
+                </div>
+                <div class="myaccount__x_post__item__info">
+                    <p>
+                        Project example number 2
+                    </p>
+
+                    <div class="myaccount__x_post__item__info--views">
+                        <img src="images/myaccount/icons/eye.svg">
+                        <span>View the project</span>
+                    </div>
+                </div>
+            </a>
+            <a class="myaccount__x_post__item" href="#">
+                <div class="myaccount__x_post__item__image">
+                    <img src="images/myaccount/post/1.jpg" alt="">
+                </div>
+                <div class="myaccount__x_post__item__info">
+                    <p>
+                        Project example number 2
+                    </p>
+
+                    <div class="myaccount__x_post__item__info--views">
+                        <img src="images/myaccount/icons/eye.svg">
+                        <span>View the project</span>
+                    </div>
+                </div>
+            </a>
+            <a class="myaccount__x_post__item" href="#">
+                <div class="myaccount__x_post__item__image">
+                    <img src="images/myaccount/post/1.jpg" alt="">
+                </div>
+                <div class="myaccount__x_post__item__info">
+                    <p>
+                        Project example number 2
+                    </p>
+
+                    <div class="myaccount__x_post__item__info--views">
+                        <img src="images/myaccount/icons/eye.svg">
+                        <span>View the project</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <?php include 'pagination_b.php'; ?>
+
     <div class="myaccount__x_about__skills__block js__myaccount__x_accordeon">
         <div class="myaccount__x_content__block__title myaccount__x_content__block__title--skills">
             Skills
@@ -48,141 +225,10 @@
     </div>
 </div>
 
-<div class="myaccount__x_content__block myaccount__x_content__block--project js__myaccount__x_accordeon">
-    <div class="myaccount__x_content__block__title">
-        Projects<span class="myaccount__x_content__block__title--gray">(18)</span>
-        <button class="btn__myaccount__x_accordeon hidden-sm js_btn__myaccount__x_accordeon">
-            <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1L7 7L13 1" stroke="#2C33C1" stroke-width="1.5" stroke-linecap="round"
-                      stroke-linejoin="round"/>
-            </svg>
-        </button>
-    </div>
-    <div class="myaccount__x_accordeon__content">
-        <div class="myaccount__x__table__project">
-            <div class="myaccount__x__table__project__thead">
-                <div class="myaccount__x__table__project__row">
-                    <div class="myaccount__x__table__project__th myaccount__x__table__project__td--name">Project name
-                    </div>
-                    <div class="myaccount__x__table__project__th myaccount__x__table__project__td--date">Date</div>
-                    <div class="myaccount__x__table__project__th myaccount__x__table__project__td--budget">Budget</div>
-                    <div class="myaccount__x__table__project__th myaccount__x__table__project__td--bids">Bids</div>
-                    <div class="myaccount__x__table__project__th myaccount__x__table__project__td--status">Status</div>
-                </div>
-            </div>
-            <div class="myaccount__x__table__project__tbody">
-                <div class="myaccount__x__table__project__row">
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--name"
-                         data-title='Project name'>
-                        <img src="images/myaccount/icons/project/1.svg">
-                        <span class="myaccount__x__table__project_name">Driving class</span>
-                        <span class="myaccount__x__table__project_status--mobile myaccount__x__table__project__status--active">Active</span>
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--date"
-                         data-title='Date'>
-                        March 10
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--budget"
-                         data-title='Budget'>
-                        $50.00 usd
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--bids"
-                         data-title='Bids'>
-                        0
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--status"
-                         data-title='Status'>
-                        <span class="myaccount__x__table__project__status myaccount__x__table__project__status--active">Active</span>
-                    </div>
-                </div>
-                <div class="myaccount__x__table__project__row">
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--name"
-                         data-title='Project name'>
-                        <img src="images/myaccount/icons/project/2.svg">
-                        <span class="myaccount__x__table__project_name">Wedding catering</span>
-                        <span class="myaccount__x__table__project_status--mobile myaccount__x__table__project__status--disputed">Disputed</span>
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--date"
-                         data-title='Date'>
-                        February 9
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--budget"
-                         data-title='Budget'>
-                        $10.00 usd
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--bids"
-                         data-title='Bids'>
-                        0
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--status"
-                         data-title='Status'>
-                        <span class="myaccount__x__table__project__status myaccount__x__table__project__status--disputed">Disputed</span>
-                    </div>
-                </div>
-                <div class="myaccount__x__table__project__row">
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--name"
-                         data-title='Project name'>
-                        <img src="images/myaccount/icons/project/3.svg">
-                        <span class="myaccount__x__table__project_name">Haircut</span>
-                        <span class="myaccount__x__table__project_status--mobile myaccount__x__table__project__status--completed">Completed</span>
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--date"
-                         data-title='Date'>
-                        December 7
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--budget"
-                         data-title='Budget'>
-                        $1000.00 usd
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--bids"
-                         data-title='Bids'>
-                        0
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--status"
-                         data-title='Status'>
-                        <span class="myaccount__x__table__project__status myaccount__x__table__project__status--completed">Completed</span>
-                    </div>
-                </div>
-                <div class="myaccount__x__table__project__row">
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--name"
-                         data-title='Project name'>
-                        <img src="images/myaccount/icons/project/3.svg">
-                        <span class="myaccount__x__table__project_name">Haircut</span>
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--date"
-                         data-title='Date'>
-                        December 7
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--budget"
-                         data-title='Budget'>
-                        $1000.00 usd
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--bids"
-                         data-title='Bids'>
-                        0
-                    </div>
-                    <div class="myaccount__x__table__project__td myaccount__x__table__project__td--status"
-                         data-title='Status'>
-                        <span class="myaccount__x__table__project__status myaccount__x__table__project__status--processing">Processing</span>
-                        <span class="myaccount__x__table__project_status--mobile myaccount__x__table__project__status--processing">Processing</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="myaccount__x__table__pagination pagination_x">
-            <ul>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#" class='active'>3</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-
 <div class="myaccount__x_content__block myaccount__x_content__block--review js__myaccount__x_accordeon">
     <div class="myaccount__x_content__block__title">
-        Reviews<span class="myaccount__x_content__block__title--gray">(18)</span>
+        <span>Reviews</span>
+        <span class="myaccount__x_content__block__title--gray">(15)</span>
         <div class="review_y myaccount__x_content__block--review_y">
             <?php $mark = 4.3; ?>
             <?php $raitngWidth = 100 / 5 * $mark; ?>
@@ -295,12 +341,7 @@
             </div>
 
         </div>
-        <div class="myaccount__x__table__pagination pagination_x">
-            <ul>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#" class='active'>3</a></li>
-            </ul>
-        </div>
+
+        <?php include 'pagination.php'; ?>
     </div>
 </div>
