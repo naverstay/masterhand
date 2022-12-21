@@ -542,6 +542,12 @@
     padding: 2px 11.5px;
 }
 
+.myaccount__x_skill__item.active {
+    border: 1px solid #2c33c1;
+    font-weight: 500;
+    color: #2c33c1;
+}
+
 .myaccount__x_skill__item__count {
     color: #2c33c1;
 }
@@ -611,7 +617,7 @@
 
 .myaccount__x__education__document--image {
     text-align: center;
-    margin-bottom: 14px;
+    margin-bottom: 15px;
 }
 
 .myaccount__x__education__document--image > img {
@@ -909,6 +915,8 @@ span.myaccount__x__table__project_name {
     align-items: center;
     gap: 5px;
     padding-bottom: 4px;
+    opacity: 0;
+    transition: opacity .3s;
 }
 
 .myaccount__x_post__item__info {
@@ -964,6 +972,10 @@ span.myaccount__x__table__project_name {
 
 .myaccount__x_post__item:hover .myaccount__x_post__item__info {
     height: auto;
+}
+
+.myaccount__x_post__item:hover .myaccount__x_post__item__info--views {
+    opacity: 1;
 }
 
 .myaccount__x_post__item:hover .myaccount__x_post__item__info p {
@@ -1200,6 +1212,8 @@ span.myaccount__x__table__project_name {
 .myaccount__x_content__review__my_mark__text {
     flex: 1;
     margin-left: 10px;
+    font-size: 16px;
+    line-height: 15px;
 }
 
 .myaccount__x_content__review__item__author__raiting .review_y_star {

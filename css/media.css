@@ -45,11 +45,22 @@
     }
 
     .myaccount__x_content__review__item__author__name {
-        font-size: inherit;
+        margin-bottom: 4px;
+    }
+
+    .myaccount__x_content__review__item__author__inner {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .myaccount__x_content__review__item__author__raiting {
+        width: 100%;
+        order: 1;
     }
 
     .myaccount__x_content__review__item__author__date {
-        font-size: inherit;
+
     }
 
     .myaccount__x_content__review__list {
@@ -57,12 +68,8 @@
     }
 
     .myaccount__x_content__review__item__title {
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-
-    .myaccount__x_content__review__item__info .def__text {
-        font-size: 14px;
+        line-height: 130%;
+        margin-bottom: 15px;
     }
 
     .myaccount__x__table__project_status--mobile {
@@ -74,25 +81,20 @@
     }
 
     .myaccount__x_content__block__title {
-        margin-bottom: 15px;
+        /*margin-bottom: 15px;*/
     }
 
     .myaccount__x_content__block__title--skills {
         margin-bottom: 0;
     }
 
-    .myaccount__x_about__text {
-        font-size: 13px;
-    }
-
     .myaccount__x_skill__item {
-        font-size: 13px;
-        padding: 4px 12.5px;
+        padding: 3px 12.5px;
     }
 
     .myaccount__x_skill__list {
-        gap: 10px;
-        margin-top: 20px;
+        gap: 14px 10px;
+        margin-top: 28px;
         padding-top: 0;
     }
 
@@ -183,7 +185,7 @@
     }
 
     .myaccount__x_post__list {
-        margin-top: 20px;
+        margin-top: -10px;
     }
 
     .myaccount__x_go_up__item__more {
@@ -201,20 +203,23 @@
     }
 
     .myaccount__x_content {
-        gap: 15px;
+        /*gap: 15px;*/
     }
 
     .myaccount__x_content__quick__links {
         margin-bottom: 0;
     }
 
-    .btn__myaccount__x_accordeon {
-        right: 0;
+    .myaccount__x_content__quick__links--about {
+        margin-top: 18px;
     }
 
-    .btn__myaccount__x_accordeon svg {
-        width: 12px;
-        height: 14px;
+    .btn__purple {
+        padding: 10px;
+    }
+
+    .myaccount__x_side_info__name {
+        margin-bottom: 5px;
     }
 
     .btn__myaccount__x_accordeon svg path {
@@ -222,7 +227,7 @@
     }
 
     .myaccount__x__education__document--holder {
-        gap: 25px;
+        gap: 23px;
     }
 
     /*.myaccount__x_go_up__row {*/
@@ -272,8 +277,37 @@
 }
 
 @media screen and (max-width: 850px) {
+    .myaccount__x__education__item {
+        grid-template-columns: 1.7fr 1fr;
+        grid-template-areas: "title time" "location location" "info info";
+    }
+
+    .myaccount__x__education__item + .myaccount__x__education__item {
+        padding-top: 24px;
+        margin-top: 12px;
+    }
+
+    .myaccount__x__education__document--link {
+        right: 8px;
+    }
+
+    .myaccount__x__education__document--link img {
+        width: 26px;
+    }
+
+    .myaccount__x__education__item--info {
+        padding-top: 15px;
+    }
+
+    .myaccount__x__education__item--time {
+        text-align: right;
+    }
+
+    .myaccount__x_content__block.myaccount__x_content__block--review {
+        padding-bottom: 0;
+    }
+
     .myaccount__x_content__block.myaccount__x_content__block--education,
-    .myaccount__x_content__block.myaccount__x_content__block--review,
     .myaccount__x_content__block.myaccount__x_content__block--about {
         padding-bottom: 20px;
     }
@@ -447,9 +481,25 @@
         width: 70px;
     }
 
+    .myaccount__x_post__item__info {
+        padding: 10px;
+    }
+
     .myaccount__x_post__list {
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 24px 20px;
+    }
+
+    .myaccount__x_content__review__item {
+        padding: 10px 0 25px;
+    }
+
+    .myaccount__x_content__review__item:last-child {
+        padding-bottom: 10px;
+    }
+
+    .myaccount__x_content__review__item + .myaccount__x_content__review__item {
+        padding-top: 20px;
     }
 
     .myaccount__x_go_up__item__title {
@@ -565,14 +615,6 @@
     .myaccount__x__table__project__tbody .myaccount__x__table__project__row {
         padding-top: 20px;
         padding-bottom: 20px;
-    }
-
-    .myaccount__x_content__review__item__title {
-        font-size: 15px;
-    }
-
-    .myaccount__x_content__review__item__info .def__text {
-        font-size: 12.5px;
     }
 
     .account_give_endorsement__list {

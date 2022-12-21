@@ -1,4 +1,4 @@
-<div class="myaccount__x_content__quick__links">
+<div class="myaccount__x_content__quick__links myaccount__x_content__quick__links--about">
     <a href="#" class='active'>Main page</a>
     <a href="#">
         <span class="hidden-sm">Info</span>
@@ -42,8 +42,8 @@
         </div>
         <div class="myaccount__x_accordeon__content">
             <div class="myaccount__x_skill__list">
-                <div class="myaccount__x_skill__item">Animal Control</div>
-                <div class="myaccount__x_skill__item">Apartment Cleaning</div>
+                <div class="myaccount__x_skill__item active">Animal Control</div>
+                <div class="myaccount__x_skill__item active">Apartment Cleaning</div>
             </div>
         </div>
     </div>
@@ -367,7 +367,6 @@
             <div class="myaccount__x__education__item--time">
                 2022 - 2023
             </div>
-            <div class="myaccount__x__education__item--info"></div>
         </div>
         <div class="myaccount__x__education__item">
             <div class="myaccount__x__education__item--title">
@@ -408,7 +407,6 @@
             <div class="myaccount__x__education__item--time">
                 2022 - 2023
             </div>
-            <div class="myaccount__x__education__item--info"></div>
         </div>
         <div class="myaccount__x__education__item">
             <div class="myaccount__x__education__item--title">
