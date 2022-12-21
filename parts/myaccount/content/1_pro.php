@@ -345,3 +345,130 @@
         <?php include 'pagination.php'; ?>
     </div>
 </div>
+
+<div class="myaccount__x_content__block myaccount__x_content__block--education js__myaccount__x_accordeon">
+    <div class="myaccount__x_content__block__title">
+        <span>Education</span>
+        <button class="btn__myaccount__x_accordeon js_btn__myaccount__x_accordeon">
+            <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L7 7L13 1" stroke="#2C33C1" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+    <div class="myaccount__x_accordeon__content __collapsable">
+        <div class="myaccount__x__education__item">
+            <div class="myaccount__x__education__item--title">
+                Branding
+            </div>
+            <div class="myaccount__x__education__item--location">
+                University name
+            </div>
+            <div class="myaccount__x__education__item--time">
+                2022 - 2023
+            </div>
+            <div class="myaccount__x__education__item--info"></div>
+        </div>
+        <div class="myaccount__x__education__item">
+            <div class="myaccount__x__education__item--title">
+                Branding
+            </div>
+            <div class="myaccount__x__education__item--location">
+                University name
+            </div>
+            <div class="myaccount__x__education__item--time">
+                2022 - 2023
+            </div>
+            <div class="myaccount__x__education__item--info">
+                Taking summer courses and boot camps in earth
+                studies
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="myaccount__x_content__block myaccount__x_content__block--education js__myaccount__x_accordeon">
+    <div class="myaccount__x_content__block__title">
+        <span>Certification</span>
+        <button class="btn__myaccount__x_accordeon js_btn__myaccount__x_accordeon">
+            <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L7 7L13 1" stroke="#2C33C1" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+    <div class="myaccount__x_accordeon__content __collapsable">
+        <div class="myaccount__x__education__item">
+            <div class="myaccount__x__education__item--title">
+                Branding
+            </div>
+            <div class="myaccount__x__education__item--location">
+                University name
+            </div>
+            <div class="myaccount__x__education__item--time">
+                2022 - 2023
+            </div>
+            <div class="myaccount__x__education__item--info"></div>
+        </div>
+        <div class="myaccount__x__education__item">
+            <div class="myaccount__x__education__item--title">
+                Branding
+            </div>
+            <div class="myaccount__x__education__item--location">
+                University name
+            </div>
+            <div class="myaccount__x__education__item--time">
+                2022 - 2023
+            </div>
+            <div class="myaccount__x__education__item--info">
+                Taking summer courses and boot camps in earth
+                studies
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="myaccount__x_content__block myaccount__x_content__block--education js__myaccount__x_accordeon">
+    <div class="myaccount__x_content__block__title">
+        <span>Documents</span>
+        <span class="myaccount__x_content__block__title--gray">(3)</span>
+        <button class="btn__myaccount__x_accordeon js_btn__myaccount__x_accordeon">
+            <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L7 7L13 1" stroke="#2C33C1" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+    <div class="myaccount__x_accordeon__content __collapsable">
+        <div class="myaccount__x__education__document--holder">
+            <div class="myaccount__x__education__document">
+                <div class="myaccount__x__education__document--image">
+                    <a href="#" class="myaccount__x__education__document--link">
+                        <img src="images/myaccount/icons/download.svg" alt="">
+                    </a>
+                    <img src="images/myaccount/about/excel.png" alt="">
+                </div>
+                <div class="myaccount__x__education__document--name">Sample standard length header</div>
+            </div>
+            <div class="myaccount__x__education__document">
+                <div class="myaccount__x__education__document--image">
+                    <a href="#" class="myaccount__x__education__document--link">
+                        <img src="images/myaccount/icons/download.svg" alt="">
+                    </a>
+                    <img src="images/myaccount/about/word.png" alt="">
+                </div>
+                <div class="myaccount__x__education__document--name">Sample standard length header</div>
+            </div>
+            <div class="myaccount__x__education__document">
+                <div class="myaccount__x__education__document--image">
+                    <a href="#" class="myaccount__x__education__document--link">
+                        <img src="images/myaccount/icons/download.svg" alt="">
+                    </a>
+                    <img src="images/myaccount/about/pdf.png" alt="">
+                </div>
+                <div class="myaccount__x__education__document--name">Sample standard length header</div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -77,10 +77,6 @@
         margin-bottom: 15px;
     }
 
-    .myaccount__x_content__block__title {
-        margin-bottom: 15px;
-    }
-
     .myaccount__x_content__block__title--skills {
         margin-bottom: 0;
     }
@@ -212,6 +208,23 @@
         margin-bottom: 0;
     }
 
+    .btn__myaccount__x_accordeon {
+        right: 0;
+    }
+
+    .btn__myaccount__x_accordeon svg {
+        width: 12px;
+        height: 14px;
+    }
+
+    .btn__myaccount__x_accordeon svg path {
+        stroke: rgb(44, 51, 193);
+    }
+
+    .myaccount__x__education__document--holder {
+        gap: 25px;
+    }
+
     /*.myaccount__x_go_up__row {*/
     /*    gap: 20px;*/
     /*}*/
@@ -253,12 +266,18 @@
 }
 
 @media screen and (min-width: 851px) {
-    .myaccount__x_accordeon__content {
+    .myaccount__x_accordeon__content:not(.__collapsable) {
         display: block !important;
     }
 }
 
 @media screen and (max-width: 850px) {
+    .myaccount__x_content__block.myaccount__x_content__block--education,
+    .myaccount__x_content__block.myaccount__x_content__block--review,
+    .myaccount__x_content__block.myaccount__x_content__block--about {
+        padding-bottom: 20px;
+    }
+
     .myaccount__x_side__edit {
         width: 100%;
         position: static;
@@ -271,11 +290,6 @@
 
     .myaccount__x_content__block__title__all__link {
         margin-left: 10px;
-    }
-
-    .myaccount__x_content__block__title.active {
-        margin-bottom: 0;
-        /* transition-delay: 0.4s; */
     }
 
     .myaccount__x_content__block__title__value__raiting {
@@ -292,12 +306,8 @@
         margin-left: 30px;
     }
 
-    .myaccount__x_content__block__title.active .btn__myaccount__x_accordeon svg {
-        transform: rotate(180deg);
-    }
-
     .myaccount__x_content__block__title {
-        transition: 0.25s;
+        transition: all 0.25s;
     }
 
     .__mob-static {
