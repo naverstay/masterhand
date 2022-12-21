@@ -14,8 +14,11 @@
         <li><a href="settings.php">page 4</a></li>
 
         <li><a href="about_pro.php">about_pro</a></li>
+        <li><a href="about_cli.php">about_cli</a></li>
         <li><a href="account_pro.php">account_pro</a></li>
+        <li><a href="account_cli.php">account_cli</a></li>
         <li><a href="give_endorsement_pro.php">give_endorsement_pro</a></li>
+        <li><a href="give_endorsement_cli.php">give_endorsement_cli</a></li>
     </ul>
 
 </body>

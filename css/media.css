@@ -306,6 +306,10 @@
         text-align: right;
     }
 
+    .myaccount__x_content__block.myaccount__x_content__block--review .myaccount__x_content__block__title {
+        margin-bottom: 20px;
+    }
+
     .myaccount__x_content__block.myaccount__x_content__block--review {
         padding-bottom: 0;
     }
