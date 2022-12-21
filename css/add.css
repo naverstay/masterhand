@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: clip;
+}
+
 .footer__new {
     background: #fff;
     box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.2);
@@ -424,6 +428,10 @@
 
 .myaccount__x_content__block__title:not(:first-child) {
     margin-top: 50px;
+}
+
+.myaccount__x_content__block__title.expand {
+    padding-right: 30px;
 }
 
 .myaccount__x_content__block__title--skills {
@@ -1409,10 +1417,6 @@ span.myaccount__x__table__project_name {
     font-weight: 400;
     grid-template-columns: auto 190px 50px 175px;
     grid-template-areas: "refferal project deals status";
-}
-
-.myaccount__x_give_endorsement__item .myaccount__x_give_endorsement__item__status {
-    margin: 0 -20px;
 }
 
 .myaccount__x_give_endorsement__item__top {

@@ -13,7 +13,7 @@
 <div class="myaccount__x_content__block myaccount__x_content__block--give_endorsement">
     <div class="myaccount__x_content__block__account_status js__myaccount__x_accordeon">
         <div class="myaccount__x_content__block__title">
-            Referrer
+            <span>Referrer</span>
             <button class="btn__myaccount__x_accordeon hidden-sm js_btn__myaccount__x_accordeon">
                 <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 1L7 7L13 1" stroke="#2C33C1" stroke-width="1.5" stroke-linecap="round"
@@ -52,7 +52,7 @@
 <div class="myaccount__x_content__block myaccount__x_content__block--give_endorsement">
     <div class="myaccount__x_content__block__account_status js__myaccount__x_accordeon">
         <div class="myaccount__x_content__block__title">
-            Referrals
+            <span>Referrals</span>
             <span class="myaccount__x_content__block__title--gray">(18)</span>
             <button class="btn__myaccount__x_accordeon hidden-sm js_btn__myaccount__x_accordeon">
                 <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -160,7 +160,7 @@
 <div class="myaccount__x_content__block myaccount__x_content__block--give_endorsement">
     <div class="myaccount__x_content__block__account_status js__myaccount__x_accordeon">
         <div class="myaccount__x_content__block__title">
-            SafePay Deals
+            <span>SafePay Deals</span>
             <span class="myaccount__x_content__block__title--gray">(9)</span>
             <button class="btn__myaccount__x_accordeon hidden-sm js_btn__myaccount__x_accordeon">
                 <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">

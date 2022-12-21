@@ -11,7 +11,7 @@
 
     <div class="myaccount__x_content__block__about js__myaccount__x_accordeon">
         <div class="myaccount__x_content__block__title">
-            About me
+            <span>About me</span>
             <button class="btn__myaccount__x_accordeon hidden-sm js_btn__myaccount__x_accordeon">
                 <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 1L7 7L13 1" stroke="#2C33C1" stroke-width="1.5" stroke-linecap="round"
@@ -199,7 +199,7 @@
 
     <div class="myaccount__x_about__skills__block js__myaccount__x_accordeon">
         <div class="myaccount__x_content__block__title myaccount__x_content__block__title--skills">
-            Skills
+            <span>Skills</span>
             <span class="myaccount__x_content__block__title--gray">(+Endorsements)</span>
             <button class="btn__myaccount__x_accordeon hidden-sm js_btn__myaccount__x_accordeon">
                 <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">

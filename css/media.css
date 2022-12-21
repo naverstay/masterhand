@@ -17,8 +17,8 @@
         gap: 0 10px;
     }
 
-    .myaccount__x_give_endorsement__item__status,
-    .myaccount__x_give_endorsement__item__deals {
+    .myaccount__x_give_endorsement__list .myaccount__x_give_endorsement__item__status,
+    .myaccount__x_give_endorsement__list .myaccount__x_give_endorsement__item__deals {
         margin-bottom: -16px !important;
     }
 
@@ -185,7 +185,7 @@
     }
 
     .myaccount__x_post__list {
-        margin-top: -10px;
+        /*margin-top: -10px;*/
     }
 
     .myaccount__x_go_up__item__more {
@@ -227,7 +227,11 @@
     }
 
     .myaccount__x__education__document--holder {
-        gap: 23px;
+        gap: 24px;
+    }
+
+    .myaccount__x__education__document {
+        max-width: calc(50% - 12px);
     }
 
     /*.myaccount__x_go_up__row {*/
@@ -249,7 +253,6 @@
     }
 
     .myaccount__x_give_endorsement__item__man {
-        width: 175px;
         flex: 1;
     }
 
@@ -319,7 +322,11 @@
 
     .myaccount__x_give_endorsement__item__top,
     .myaccount__x_give_endorsement__item {
-        grid-template-columns: auto 60px 100px;
+        grid-template-columns: auto 60px 120px;
+    }
+
+    .myaccount__x_content__block__title.expand-mob {
+        padding-right: 30px;
     }
 
     .myaccount__x_content__block__title__all__link {
@@ -441,12 +448,7 @@
     }
 }
 
-
 @media screen and (max-width: 550px) {
-    .myaccount__x_give_endorsement__item__man {
-        width: 160px;
-    }
-
     .endorse_skills_link svg {
         display: none;
     }
