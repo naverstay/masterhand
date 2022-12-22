@@ -6,9 +6,7 @@
         & Reviews</a>
 </div>
 
-
 <div class="myaccount__x_content__block myaccount__x_content__block--about">
-
     <div class="myaccount__x_content__block__about js__myaccount__x_accordeon">
         <div class="myaccount__x_content__block__title">
             <span>About me</span>

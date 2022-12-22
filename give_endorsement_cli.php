@@ -2,7 +2,7 @@
 
 <div class="myaccount__new">
 	<div class="container">
-		<?php include 'parts/myaccount/sidebar_edit.php';?>
+		<?php include 'parts/myaccount/sidebar_cli.php';?>
 
 		<div class="myaccount__x_content">
 			<?php include 'parts/myaccount/content/3_endorsement_pro.php';?>
